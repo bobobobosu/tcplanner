@@ -1,0 +1,89 @@
+<solver>
+    <environmentMode>REPRODUCIBLE</environmentMode>
+    <moveThreadCount>AUTO</moveThreadCount>
+    <scanAnnotatedClasses>
+        <packageInclude>bo.tc.tcplanner</packageInclude>
+    </scanAnnotatedClasses>
+    <scoreDirectorFactory>
+        <constraintProviderClass>bo.tc.tcplanner.domain.score.ScheduleConstraintProvider</constraintProviderClass>
+        <constraintStreamImplType>BAVET</constraintStreamImplType>
+    </scoreDirectorFactory>
+    <localSearch>
+        <unionMoveSelector>
+            <swapMoveSelector>
+                <fixedProbabilityWeight>0.1</fixedProbabilityWeight>
+                <entitySelector id="entitySelector2">
+                    <cacheType>STEP</cacheType>
+                    <selectionOrder>PROBABILISTIC</selectionOrder>
+                    <filterClass>bo.tc.tcplanner.domain.filters.StartTimeCanChangeFilter</filterClass>
+                    <probabilityWeightFactoryClass>bo.tc.tcplanner.domain.filters.AllocationProbabilityWeightFactory</probabilityWeightFactoryClass>
+                </entitySelector>
+                <secondaryEntitySelector>
+                    <cacheType>STEP</cacheType>
+                    <selectionOrder>PROBABILISTIC</selectionOrder>
+                    <filterClass>bo.tc.tcplanner.domain.filters.StartTimeCanChangeFilter</filterClass>
+                    <probabilityWeightFactoryClass>bo.tc.tcplanner.domain.filters.AllocationProbabilityWeightFactory</probabilityWeightFactoryClass>
+                </secondaryEntitySelector>
+                <variableNameInclude>planningStartDate</variableNameInclude>
+            </swapMoveSelector>
+            <cartesianProductMoveSelector>
+                <fixedProbabilityWeight>0.55</fixedProbabilityWeight>
+                <changeMoveSelector>
+                    <entitySelector id="cartesianSelector1">
+                        <cacheType>STEP</cacheType>
+                        <selectionOrder>PROBABILISTIC</selectionOrder>
+                        <filterClass>bo.tc.tcplanner.domain.filters.StartTimeCanChangeFilter</filterClass>
+                        <probabilityWeightFactoryClass>bo.tc.tcplanner.domain.filters.AllocationProbabilityWeightFactory</probabilityWeightFactoryClass>
+                    </entitySelector>
+                    <valueSelector variableName="planningStartDate"/>
+                </changeMoveSelector>
+                <changeMoveSelector>
+                    <entitySelector mimicSelectorRef="cartesianSelector1"/>
+                    <valueSelector variableName="progressdelta"/>
+                </changeMoveSelector>
+                <ignoreEmptyChildIterators>true</ignoreEmptyChildIterators>
+            </cartesianProductMoveSelector>
+            <moveListFactory>
+                <fixedProbabilityWeight>0.02</fixedProbabilityWeight>
+                <moveListFactoryClass>bo.tc.tcplanner.domain.moves.SplitTimelineEntryFactory</moveListFactoryClass>
+            </moveListFactory>
+            <moveListFactory>
+                <fixedProbabilityWeight>0.02</fixedProbabilityWeight>
+                <moveListFactoryClass>bo.tc.tcplanner.domain.moves.MergeTimelineEntryMoveFactory</moveListFactoryClass>
+            </moveListFactory>
+            <moveIteratorFactory>
+                <fixedProbabilityWeight>0.3</fixedProbabilityWeight>
+                <moveIteratorFactoryClass>bo.tc.tcplanner.domain.moves.RemoveMoveIteratorFactory</moveIteratorFactoryClass>
+            </moveIteratorFactory>
+            <changeMoveSelector>
+                <fixedProbabilityWeight>0.15575</fixedProbabilityWeight>
+                <entitySelector>
+                    <cacheType>STEP</cacheType>
+                    <selectionOrder>PROBABILISTIC</selectionOrder>
+                    <probabilityWeightFactoryClass>bo.tc.tcplanner.domain.filters.AllocationProbabilityWeightFactory</probabilityWeightFactoryClass>
+                </entitySelector>
+                <valueSelector variableName="planningStartDate"/>
+            </changeMoveSelector>
+            <changeMoveSelector>
+                <fixedProbabilityWeight>0.0385</fixedProbabilityWeight>
+                <entitySelector>
+                    <cacheType>STEP</cacheType>
+                    <selectionOrder>PROBABILISTIC</selectionOrder>
+                    <filterClass>bo.tc.tcplanner.domain.filters.IsFocusedFilter</filterClass>
+                    <filterClass>bo.tc.tcplanner.domain.filters.ProgressDeltaCanChangeFilter</filterClass>
+                    <probabilityWeightFactoryClass>bo.tc.tcplanner.domain.filters.AllocationProbabilityWeightFactory</probabilityWeightFactoryClass>
+                </entitySelector>
+                <valueSelector variableName="progressdelta"/>
+            </changeMoveSelector>
+        </unionMoveSelector>
+        <acceptor>
+            <moveTabuSize>3</moveTabuSize>
+            <undoMoveTabuSize>5</undoMoveTabuSize>
+        </acceptor>
+        <forager>
+            <pickEarlyType>FIRST_BEST_SCORE_IMPROVING</pickEarlyType>
+            <acceptedCountLimit>350</acceptedCountLimit>
+            <finalistPodiumType>STRATEGIC_OSCILLATION_BY_LEVEL</finalistPodiumType>
+        </forager>
+    </localSearch>
+</solver>

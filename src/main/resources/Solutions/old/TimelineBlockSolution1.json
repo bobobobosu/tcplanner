@@ -1,0 +1,1013 @@
+{
+  "timelineEntryList": [
+    {
+      "title": "\u5b58\u53d6\u6b0a\u6b78\u96f6",
+      "description": "",
+      "id": 1955,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.\u7f8e\u91d1USD": {
+            "amt": 100000.0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          },
+          "r.meal": {
+            "amt": 1.0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          },
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+            "amt": 2.0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          },
+          "r.Clean Room": {
+            "amt": 10.0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          },
+          "r.Calories Consumption": {
+            "amt": 300.0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          }
+        },
+        "mode": "absolute"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-12-17T20:52:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6291.0,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u6d17\u6fa1",
+      "description": "",
+      "id": 6377,
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Home",
+        "duration": 11.999999999999995,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Clean Body": {
+            "amt": 1.0,
+            "requirementLocation": "",
+            "productionLocation": "Undefined"
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-12-17T21:12:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 1.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6292.0,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "id": 316,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 378.00000000000006,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Calories Consumption": {
+            "amt": -100.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Room": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Body": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-12-18T00:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6293.0,
+      "dependencyIdList": [
+        6377,
+        1955
+      ]
+    },
+    {
+      "title": "\u6d17\u8863",
+      "description": "",
+      "id": 6378,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+            "amt": 7.0,
+            "requirementLocation": "",
+            "productionLocation": "Undefined"
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-12-18T06:18:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 1.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6294.0,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "id": 334,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 378.00000000000006,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Calories Consumption": {
+            "amt": -100.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Room": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Body": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-12-19T00:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6295.0,
+      "dependencyIdList": [
+        1955
+      ]
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "id": 364,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 378.00000000000006,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Calories Consumption": {
+            "amt": -100.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Room": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Body": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-12-20T00:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6296.0,
+      "dependencyIdList": [
+        6378,
+        1955
+      ]
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "id": 957,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 378.00000000000006,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Calories Consumption": {
+            "amt": -100.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Room": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Body": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-12-21T00:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6297.0,
+      "dependencyIdList": [
+        6378,
+        1955
+      ]
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "id": 1274,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 378.00000000000006,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Calories Consumption": {
+            "amt": -100.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Room": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Body": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-12-22T00:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6298.0,
+      "dependencyIdList": [
+        6378,
+        1955
+      ]
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "id": 1345,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 378.00000000000006,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Calories Consumption": {
+            "amt": -100.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Room": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Body": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-12-23T00:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6299.0,
+      "dependencyIdList": [
+        6378,
+        1955
+      ]
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "id": 1567,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 378.00000000000006,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Calories Consumption": {
+            "amt": -100.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Room": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Body": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-12-24T00:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6300.0,
+      "dependencyIdList": [
+        6378,
+        1955
+      ]
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "id": 1734,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 378.00000000000006,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Calories Consumption": {
+            "amt": -100.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Room": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Body": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-12-25T00:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6301.0,
+      "dependencyIdList": [
+        6378,
+        1955
+      ]
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "id": 1744,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 378.00000000000006,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Calories Consumption": {
+            "amt": -100.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Room": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Body": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-12-26T00:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6302.0,
+      "dependencyIdList": [
+        6378,
+        1955
+      ]
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "id": 1746,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 378.00000000000006,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Calories Consumption": {
+            "amt": -100.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Room": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Body": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-12-27T00:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6303.0,
+      "dependencyIdList": [
+        1955
+      ]
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "id": 1765,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 378.00000000000006,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Calories Consumption": {
+            "amt": -100.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Room": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Body": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-12-28T00:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6304.0,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "id": 1770,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 378.00000000000006,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Calories Consumption": {
+            "amt": -100.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Room": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Body": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-12-29T00:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6305.0,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "id": 1778,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 378.00000000000006,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Calories Consumption": {
+            "amt": -100.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Room": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Body": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-12-30T00:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6306.0,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "id": 1834,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 378.00000000000006,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Calories Consumption": {
+            "amt": -100.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Room": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          },
+          "r.Clean Body": {
+            "amt": -1.0,
+            "requirementLocation": "Undefined",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-12-31T00:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6307.0,
+      "dependencyIdList": []
+    },
+    {
+      "title": "Deadline",
+      "description": "Winter Break End",
+      "id": 446,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2020-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6308.0,
+      "dependencyIdList": []
+    },
+    {
+      "title": "_Example",
+      "description": "",
+      "id": 1870,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2020-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 1.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6309.0,
+      "dependencyIdList": []
+    },
+    {
+      "title": "t.TC Maintenance",
+      "description": "",
+      "id": 240,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 0.9299999999999999
+      },
+      "startTime": "2020-01-01T23:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6310.0,
+      "dependencyIdList": []
+    },
+    {
+      "title": "t.\u7463\u4e8b",
+      "description": "\u7533\u8acb\u65fa\u5b8f\u734e\u5b78\u91d1",
+      "id": 5333,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 90.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2020-04-14T23:59:00-07:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6311.0,
+      "dependencyIdList": []
+    },
+    {
+      "title": "t.\u7463\u4e8b",
+      "description": "End Of UCSD\u5c08\u6848",
+      "id": 6277,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2021-12-11T00:00:00-08:00[America/Los_Angeles]",
+      "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6312.0,
+      "dependencyIdList": []
+    }
+  ],
+  "blockStartTime": "2019-12-17T20:52:00-08:00[America/Los_Angeles]",
+  "blockEndTime": "2021-12-11T00:00:00-08:00[America/Los_Angeles]",
+  "blockStartRow": 6291.0,
+  "blockEndRow": 6312.0,
+  "blockScheduleAfter": 6292.0,
+  "score": "",
+  "origin": "TCxlsb"
+}

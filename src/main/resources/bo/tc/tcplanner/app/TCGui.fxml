@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import bo.tc.tcplanner.Gui.*?>
+<?import com.calendarfx.view.CalendarView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<VBox prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="bo.tc.tcplanner.Gui.TCGuiController">
+    <children>
+        <MenuBar VBox.vgrow="NEVER">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="New"/>
+                        <MenuItem mnemonicParsing="false" text="Open…"/>
+                        <Menu mnemonicParsing="false" text="Open Recent"/>
+                        <SeparatorMenuItem mnemonicParsing="false"/>
+                        <MenuItem mnemonicParsing="false" text="Close"/>
+                        <MenuItem mnemonicParsing="false" text="Save"/>
+                        <MenuItem mnemonicParsing="false" text="Save As…"/>
+                        <MenuItem mnemonicParsing="false" text="Revert"/>
+                        <SeparatorMenuItem mnemonicParsing="false"/>
+                        <MenuItem mnemonicParsing="false" text="Preferences…"/>
+                        <SeparatorMenuItem mnemonicParsing="false"/>
+                        <MenuItem mnemonicParsing="false" onAction="#QuitApp" text="Quit"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#undoAction" text="Undo"/>
+                        <MenuItem mnemonicParsing="false" onAction="#redoAction" text="Redo"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About MyHelloApp"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="564.0" prefWidth="1139.0" VBox.vgrow="ALWAYS">
+            <children>
+                <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                      AnchorPane.topAnchor="0.0">
+                    <children>
+                        <TabPane fx:id="tab_pane" tabClosingPolicy="UNAVAILABLE" VBox.vgrow="ALWAYS">
+                            <tabs>
+                                <Tab fx:id="tab_calendar" text="Calendar">
+                                    <content>
+                                        <AnchorPane fx:id="calendar_anchor">
+                                            <children>
+                                                <CalendarView fx:id="calendar_calendarview"
+                                                              AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                                                              AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"/>
+                                            </children>
+                                        </AnchorPane>
+                                    </content>
+                                </Tab>
+                                <Tab fx:id="tab_resource" text="Resource">
+                                    <content>
+                                        <SplitPane dividerPositions="0.8" orientation="VERTICAL">
+                                            <items>
+                                                <AnchorPane fx:id="resource_anchor">
+                                                    <children>
+                                                        <CalendarView fx:id="resource_calendarview"
+                                                                      AnchorPane.bottomAnchor="0.0"
+                                                                      AnchorPane.leftAnchor="0.0"
+                                                                      AnchorPane.rightAnchor="0.0"
+                                                                      AnchorPane.topAnchor="0.0"/>
+                                                    </children>
+                                                </AnchorPane>
+                                                <AnchorPane>
+                                                    <children>
+                                                        <LineChart fx:id="resourceLineChart"
+                                                                   AnchorPane.bottomAnchor="0.0"
+                                                                   AnchorPane.leftAnchor="0.0"
+                                                                   AnchorPane.rightAnchor="0.0"
+                                                                   AnchorPane.topAnchor="0.0">
+                                                            <xAxis>
+                                                                <ZonedDateTimeAxis side="BOTTOM"/>
+                                                            </xAxis>
+                                                            <yAxis>
+                                                                <NumberAxis side="LEFT"/>
+                                                            </yAxis>
+                                                        </LineChart>
+                                                    </children>
+                                                </AnchorPane>
+                                            </items>
+                                        </SplitPane>
+
+                                    </content>
+                                </Tab>
+                                <Tab fx:id="tab_planner" text="Planner">
+                                    <content>
+                                        <AnchorPane>
+                                            <children>
+                                                <SplitPane dividerPositions="0.5" orientation="VERTICAL"
+                                                           AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                                                           AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                    <items>
+                                                        <AnchorPane>
+                                                            <children>
+                                                                <ScrollPane fitToHeight="true" fitToWidth="true"
+                                                                            prefHeight="297.0" prefWidth="618.0"
+                                                                            AnchorPane.bottomAnchor="0.0"
+                                                                            AnchorPane.leftAnchor="0.0"
+                                                                            AnchorPane.rightAnchor="0.0"
+                                                                            AnchorPane.topAnchor="0.0">
+                                                                    <content>
+                                                                        <AnchorPane minHeight="0.0" minWidth="0.0">
+                                                                            <children>
+                                                                                <TableView fx:id="editor_table"
+                                                                                           layoutX="8.0" layoutY="22.0"
+                                                                                           prefHeight="285.0"
+                                                                                           prefWidth="559.0"
+                                                                                           AnchorPane.bottomAnchor="0.0"
+                                                                                           AnchorPane.leftAnchor="0.0"
+                                                                                           AnchorPane.rightAnchor="0.0"
+                                                                                           AnchorPane.topAnchor="0.0">
+                                                                                    <columns>
+                                                                                    </columns>
+                                                                                </TableView>
+                                                                            </children>
+                                                                        </AnchorPane>
+                                                                    </content>
+                                                                </ScrollPane>
+                                                            </children>
+                                                        </AnchorPane>
+                                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="205.0"
+                                                                    prefWidth="598.0">
+                                                            <children>
+                                                                <ScrollPane fitToHeight="true" fitToWidth="true"
+                                                                            layoutX="32.0" layoutY="14.0"
+                                                                            prefHeight="124.0" prefWidth="460.0"
+                                                                            AnchorPane.bottomAnchor="0.0"
+                                                                            AnchorPane.leftAnchor="0.0"
+                                                                            AnchorPane.rightAnchor="0.0"
+                                                                            AnchorPane.topAnchor="0.0">
+                                                                    <content>
+                                                                        <TextArea fx:id="editor_textarea"
+                                                                                  style="-fx-font-family: monospace"/>
+                                                                    </content>
+                                                                </ScrollPane>
+                                                            </children>
+                                                        </AnchorPane>
+                                                    </items>
+                                                </SplitPane>
+                                            </children>
+                                        </AnchorPane>
+                                    </content>
+                                </Tab>
+                                <Tab text="Dashboard">
+                                    <content>
+                                        <SplitPane dividerPositions="0.1683937823834197" orientation="VERTICAL">
+                                            <items>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0">
+                                                    <children>
+                                                        <ScrollPane fitToHeight="true" fitToWidth="true" layoutX="37.0"
+                                                                    layoutY="19.0" prefHeight="275.0" prefWidth="868.0"
+                                                                    AnchorPane.bottomAnchor="0.0"
+                                                                    AnchorPane.leftAnchor="0.0"
+                                                                    AnchorPane.rightAnchor="0.0"
+                                                                    AnchorPane.topAnchor="0.0">
+                                                            <content>
+                                                                <TextArea fx:id="console_textarea"
+                                                                          style="-fx-font-family: monospace"/>
+                                                            </content>
+                                                        </ScrollPane>
+                                                    </children>
+                                                </AnchorPane>
+                                                <SplitPane dividerPositions="0.5" prefHeight="160.0" prefWidth="200.0">
+                                                    <items>
+                                                        <AnchorPane minHeight="0.0" minWidth="0.0">
+                                                            <children>
+                                                                <ScrollPane fitToHeight="true" fitToWidth="true"
+                                                                            prefHeight="200.0" prefWidth="200.0"
+                                                                            AnchorPane.bottomAnchor="0.0"
+                                                                            AnchorPane.leftAnchor="0.0"
+                                                                            AnchorPane.rightAnchor="0.0"
+                                                                            AnchorPane.topAnchor="0.0">
+                                                                    <content>
+                                                                        <TextArea fx:id="explanation_textarea"
+                                                                                  style="-fx-font-family: monospace"/>
+                                                                    </content>
+                                                                </ScrollPane>
+                                                            </children>
+                                                        </AnchorPane>
+                                                        <SplitPane dividerPositions="0.5" orientation="VERTICAL">
+                                                            <items>
+                                                                <LineChart fx:id="solveingspeed_chart">
+                                                                    <xAxis>
+                                                                        <NumberAxis side="BOTTOM"/>
+                                                                    </xAxis>
+                                                                    <yAxis>
+                                                                        <NumberAxis side="LEFT"/>
+                                                                    </yAxis>
+                                                                </LineChart>
+                                                                <AnchorPane minHeight="0.0" minWidth="0.0"
+                                                                            prefHeight="160.0" prefWidth="100.0">
+                                                                    <children>
+                                                                        <ScrollPane fitToHeight="true" fitToWidth="true"
+                                                                                    prefHeight="200.0" prefWidth="200.0"
+                                                                                    AnchorPane.bottomAnchor="0.0"
+                                                                                    AnchorPane.leftAnchor="0.0"
+                                                                                    AnchorPane.rightAnchor="0.0"
+                                                                                    AnchorPane.topAnchor="0.0">
+                                                                            <content>
+                                                                                <TextArea fx:id="statusdetail_textarea"
+                                                                                          style="-fx-font-family: monospace"/>
+                                                                            </content>
+                                                                        </ScrollPane>
+                                                                    </children>
+                                                                </AnchorPane>
+                                                            </items>
+                                                        </SplitPane>
+                                                    </items>
+                                                </SplitPane>
+                                            </items>
+                                        </SplitPane>
+                                    </content>
+                                </Tab>
+                                <Tab fx:id="tab_rawdata" text="Raw Data">
+                                    <VBox>
+                                        <ToolBar>
+                                            <items>
+                                                <ComboBox fx:id="rawdata_selecteddata" layoutX="15.0" layoutY="33.0"
+                                                          prefWidth="200.0" promptText="choose"/>
+                                                <Button fx:id="rawdata_commit_btn" maxWidth="-Infinity" mnemonicParsing="false"
+                                                        onAction="#replaceScheduleAction" text="Apply" visible="true"/>
+                                            </items>
+                                        </ToolBar>
+                                        <ScrollPane fitToHeight="true" fitToWidth="true" layoutX="37.0" layoutY="19.0"
+                                                    prefHeight="700.0" prefWidth="868.0" AnchorPane.bottomAnchor="0.0"
+                                                    AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                                                    AnchorPane.topAnchor="0.0">
+                                            <content>
+                                                <TextArea fx:id="rawdata_textarea" prefHeight="5000.0" prefWidth="998.0"
+                                                          style="-fx-font-family: monospace"/>
+                                            </content>
+                                        </ScrollPane>
+                                    </VBox>
+                                </Tab>
+                            </tabs>
+                            <VBox.margin>
+                                <Insets/>
+                            </VBox.margin>
+                        </TabPane>
+                        <ButtonBar minHeight="50" translateX="10.0">
+                            <buttons>
+                                <Button fx:id="start_btn" maxWidth="-Infinity" mnemonicParsing="false" text="Solve!"
+                                        ButtonBar.buttonData="LEFT"/>
+                                <Button fx:id="stop_btn" maxWidth="-Infinity" mnemonicParsing="false" text="Stop"
+                                        ButtonBar.buttonData="LEFT"/>
+                                <Button fx:id="reset_btn" maxWidth="-Infinity" mnemonicParsing="false" text="Reset"
+                                        ButtonBar.buttonData="LEFT"/>
+                                <Button fx:id="refresh_btn" maxWidth="-Infinity" mnemonicParsing="false" text="Refresh"
+                                        ButtonBar.buttonData="LEFT"/>
+                                <Text fx:id="status_text" fill="#0000005f" strokeType="OUTSIDE" strokeWidth="0.0"
+                                      text="Last Updated: ">
+                                    <font>
+                                        <Font size="14.0"/>
+                                    </font>
+                                </Text>
+                                <Button fx:id="commit_btn" maxWidth="-Infinity" mnemonicParsing="false"
+                                        onAction="#commitAction" text="Apply" visible="false"/>
+                                <Button fx:id="cancel_btn" maxWidth="-Infinity" mnemonicParsing="false"
+                                        onAction="#cancelAction" text="Cancel" visible="false"/>
+                                <ToggleButton fx:id="update_toggle" mnemonicParsing="false" text="Dashboard On"/>
+                                <ProgressIndicator fx:id="solving_progress" progress="0.0"/>
+                            </buttons>
+                        </ButtonBar>
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

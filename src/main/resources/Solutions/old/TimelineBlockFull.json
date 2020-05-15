@@ -1,0 +1,1852 @@
+{
+  "timelineEntryList": [
+    {
+      "title": "\u5b58\u53d6\u6b0a\u6b78\u96f6",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Clean Room": {
+            "amt": 2,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          },
+          "r.Clean Body": {
+            "amt": 1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          },
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+            "amt": 3,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          },
+          "r.Calories Consumption": {
+            "amt": 300,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          },
+          "r.meal": {
+            "amt": 1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          },
+          "r.\u7f8e\u91d1USD": {
+            "amt": 10000,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          }
+        },
+        "mode": "absolute"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-13T21:41:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 6382,
+      "rownum": 6327,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 423,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-13T23:58:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 5579,
+      "rownum": 6328,
+      "dependencyIdList": []
+    },
+    {
+      "title": "Go School",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "University of California San Diego",
+        "duration": 18,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-14T15:08:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 6383,
+      "rownum": 6329,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 12\u5c08\u6848",
+      "description": "Lecture",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 20,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-14T15:28:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 5968,
+      "rownum": 6330,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 15L\u5c08\u6848",
+      "description": "Lab",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 90,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-14T16:58:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6140,
+      "rownum": 6331,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 12\u5c08\u6848",
+      "description": "Discussion\nHW8 overview",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-14T18:28:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6054,
+      "rownum": 6332,
+      "dependencyIdList": []
+    },
+    {
+      "title": "Back Home",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 19,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-14T22:28:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 6505,
+      "rownum": 6333,
+      "dependencyIdList": []
+    },
+    {
+      "title": "t.Formal Paper",
+      "description": "[Writing: 2F]",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 144,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Formal Paper": {
+            "amt": 0.1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": "Undefined"
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-14T22:47:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 1,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6507,
+      "rownum": 6334,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 423,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-15T02:40:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 5580,
+      "rownum": 6335,
+      "dependencyIdList": []
+    },
+    {
+      "title": "Go School",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "University of California San Diego",
+        "duration": 18,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-15T09:43:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 1,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 6508,
+      "rownum": 6336,
+      "dependencyIdList": []
+    },
+    {
+      "title": "t.Formal Paper",
+      "description": "[Writing: 2F]",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 144,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Formal Paper": {
+            "amt": 1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": "Undefined"
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-15T10:01:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 1,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6509,
+      "rownum": 6337,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 21\u5c08\u6848",
+      "description": "Lecture",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 45,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-15T12:57:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6141,
+      "rownum": 6338,
+      "dependencyIdList": []
+    },
+    {
+      "title": "t.CIS Quiz Prep",
+      "description": "[Quiz]",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 375,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Quiz Prep": {
+            "amt": 1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": "Undefined"
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-15T13:42:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 1,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6510,
+      "rownum": 6339,
+      "dependencyIdList": []
+    },
+    {
+      "title": "t.Billing Cycle",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.BOA Credit Card Payment": {
+            "amt": 1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": "Undefined"
+          },
+          "r.Rent Payment": {
+            "amt": 1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": "Undefined"
+          },
+          "r.Verizon Sean Payment": {
+            "amt": 1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": "Undefined"
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-15T19:57:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 1,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6511,
+      "rownum": 6340,
+      "dependencyIdList": []
+    },
+    {
+      "title": "Back Home",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 18,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-15T19:57:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 1,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 6512,
+      "rownum": 6341,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 423,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-16T03:19:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 5581,
+      "rownum": 6342,
+      "dependencyIdList": []
+    },
+    {
+      "title": "t.CIS Quiz Prep",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 37,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Quiz Prep": {
+            "amt": 1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": "Undefined"
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 0.1
+      },
+      "startTime": "2019-11-16T10:22:12-08:00[America/Los_Angeles]",
+      "deadline": null,
+      "movable": 1,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": -1,
+      "rownum": 6343,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 423,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-16T23:58:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 5586,
+      "rownum": 6343,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 423,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-17T23:58:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 5588,
+      "rownum": 6344,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 21\u5c08\u6848",
+      "description": "Lecture",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 45,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-18T12:58:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6142,
+      "rownum": 6345,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 15L\u5c08\u6848",
+      "description": "Lecture",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 45,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-18T15:58:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6143,
+      "rownum": 6346,
+      "dependencyIdList": []
+    },
+    {
+      "title": "Deadline",
+      "description": "Meet with group mates and post a summary (2E Response) of what you discussed on TritonEd.",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-18T16:53:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 6256,
+      "rownum": 6347,
+      "dependencyIdList": []
+    },
+    {
+      "title": "WCWP 100\u5c08\u6848",
+      "description": "Individual conferences continue. No class.",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 72,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-18T16:58:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6237,
+      "rownum": 6348,
+      "dependencyIdList": []
+    },
+    {
+      "title": "Deadline",
+      "description": "HW 6: (graphs) due",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": {
+            "amt": -1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-18T22:58:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 6013,
+      "rownum": 6349,
+      "dependencyIdList": []
+    },
+    {
+      "title": "Deadline",
+      "description": "Scripting Project 1",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": {
+            "amt": -1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-18T23:57:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 6170,
+      "rownum": 6350,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 423,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.BOA Credit Card Payment": {
+            "amt": -1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-19T04:11:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 5593,
+      "rownum": 6351,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 12\u5c08\u6848",
+      "description": "Lecture",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 72,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-19T15:28:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 5969,
+      "rownum": 6352,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 12\u5c08\u6848",
+      "description": "Discussion\nQuiz review",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 45,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-19T18:28:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 5982,
+      "rownum": 6353,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 423,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-19T23:58:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 5594,
+      "rownum": 6354,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 21\u5c08\u6848",
+      "description": "Lecture",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 45,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-20T12:58:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6145,
+      "rownum": 6355,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 15L\u5c08\u6848",
+      "description": "Lecture",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 45,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-20T15:58:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6146,
+      "rownum": 6356,
+      "dependencyIdList": []
+    },
+    {
+      "title": "Deadline",
+      "description": "Discussion Quiz",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Quiz Prep": {
+            "amt": -1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-20T16:49:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 6351,
+      "rownum": 6357,
+      "dependencyIdList": []
+    },
+    {
+      "title": "Deadline",
+      "description": "Writing: 2F",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Formal Paper": {
+            "amt": -1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-20T16:53:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 6257,
+      "rownum": 6358,
+      "dependencyIdList": []
+    },
+    {
+      "title": "WCWP 100\u5c08\u6848",
+      "description": "Introduce PPT assignment. Professional development workshop.",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 73,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-20T16:58:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6238,
+      "rownum": 6359,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 21\u5c08\u6848",
+      "description": "Discussion",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-20T19:58:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6148,
+      "rownum": 6360,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 425,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-20T23:58:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 5598,
+      "rownum": 6361,
+      "dependencyIdList": []
+    },
+    {
+      "title": "t.\u7463\u4e8b",
+      "description": "Quiz",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Quiz Prep": {
+            "amt": -1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-21T15:23:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 6001,
+      "rownum": 6362,
+      "dependencyIdList": []
+    },
+    {
+      "title": "Deadline",
+      "description": "Discussion Quiz",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Quiz Prep": {
+            "amt": -1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-21T15:25:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 6352,
+      "rownum": 6363,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 12\u5c08\u6848",
+      "description": "Lecture",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 76,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-21T15:28:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 5970,
+      "rownum": 6364,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 15L\u5c08\u6848",
+      "description": "Lab",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 90,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-21T16:58:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6149,
+      "rownum": 6365,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 12\u5c08\u6848",
+      "description": "Discussion",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-21T18:28:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6055,
+      "rownum": 6366,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 426,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-21T23:58:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 5603,
+      "rownum": 6367,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 21\u5c08\u6848",
+      "description": "Lecture",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 46,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-22T12:58:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6150,
+      "rownum": 6368,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 428,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-22T23:59:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 5604,
+      "rownum": 6369,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 434,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-23T23:59:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 5605,
+      "rownum": 6370,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 434,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-24T23:59:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 5607,
+      "rownum": 6371,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 21\u5c08\u6848",
+      "description": "Lecture",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 47,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-25T12:59:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6151,
+      "rownum": 6372,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 15L\u5c08\u6848",
+      "description": "Lecture",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 47,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-25T15:59:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6152,
+      "rownum": 6373,
+      "dependencyIdList": []
+    },
+    {
+      "title": "Deadline",
+      "description": "Reading: Articles from group folders Writing: 2G & 3A",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Informal Writing Assignment": {
+            "amt": -2,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          },
+          "r.EWRT Reading Assignment": {
+            "amt": -1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-25T16:54:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 6258,
+      "rownum": 6374,
+      "dependencyIdList": []
+    },
+    {
+      "title": "WCWP 100\u5c08\u6848",
+      "description": "Use 3A to begin PowerPoint Presentation preparations",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 78,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-25T16:59:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6239,
+      "rownum": 6375,
+      "dependencyIdList": []
+    },
+    {
+      "title": "Deadline",
+      "description": "HW 7 (probability) due",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-25T22:59:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 6014,
+      "rownum": 6376,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 434,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-25T23:59:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 5614,
+      "rownum": 6377,
+      "dependencyIdList": []
+    },
+    {
+      "title": "t.\u7463\u4e8b",
+      "description": "HW8 due",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": {
+            "amt": -1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-26T15:24:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 6002,
+      "rownum": 6378,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 12\u5c08\u6848",
+      "description": "Lecture",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 78,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-26T15:29:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 5971,
+      "rownum": 6379,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 12\u5c08\u6848",
+      "description": "Discussion\nHW9 overview",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 33,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-26T18:29:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 5983,
+      "rownum": 6380,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 428,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-26T23:59:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 5619,
+      "rownum": 6381,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 21\u5c08\u6848",
+      "description": "Lecture",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 48,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-27T12:59:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6154,
+      "rownum": 6382,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 15L\u5c08\u6848",
+      "description": "Lecture",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 48,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-27T15:59:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6155,
+      "rownum": 6383,
+      "dependencyIdList": []
+    },
+    {
+      "title": "Deadline",
+      "description": "Writing: 3B",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Informal Writing Assignment": {
+            "amt": -1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-27T16:54:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 6259,
+      "rownum": 6384,
+      "dependencyIdList": []
+    },
+    {
+      "title": "WCWP 100\u5c08\u6848",
+      "description": null,
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 78,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-27T16:59:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6240,
+      "rownum": 6385,
+      "dependencyIdList": []
+    },
+    {
+      "title": "Deadline",
+      "description": "Discussion Quiz",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Quiz Prep": {
+            "amt": -1,
+            "capacity": 0,
+            "requirementLocation": "",
+            "productionLocation": ""
+          }
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-27T19:09:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 0,
+      "changeable": 0,
+      "id": 6353,
+      "rownum": 6386,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 21\u5c08\u6848",
+      "description": "Discussion",
+      "taskMode": 0,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 48,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1
+      },
+      "startTime": "2019-11-27T19:59:12-08:00[America/Los_Angeles]",
+      "deadline": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+      "movable": 0,
+      "gravity": 0,
+      "splittable": 1,
+      "changeable": 0,
+      "id": 6157,
+      "rownum": 6387,
+      "dependencyIdList": []
+    }
+  ],
+  "blockStartTime": "2019-11-13T21:41:12-08:00[America/Los_Angeles]",
+  "blockEndTime": "2019-11-27T20:48:12-08:00[America/Los_Angeles]",
+  "blockStartRow": 6327,
+  "blockEndRow": 6387,
+  "blockScheduleAfter": 6339,
+  "origin": "TCxlsb",
+  "score": ""
+}

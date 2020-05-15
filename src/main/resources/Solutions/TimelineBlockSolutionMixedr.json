@@ -1,0 +1,228 @@
+{
+  "timelineEntryList": [
+    {
+      "title": "t.\u7463\u4e8b",
+      "description": "Family",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-24T07:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6920,
+        "rownum": 6340.0,
+        "dependencyIdList": [],
+        "planningWindowType": "Published"
+      }
+    },
+    {
+      "title": "t.\u7463\u4e8b",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-24T08:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6594,
+        "rownum": 6341.0,
+        "dependencyIdList": [],
+        "planningWindowType": "Published"
+      }
+    },
+    {
+      "title": "t.\u7463\u4e8b",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 90.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-24T08:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 1.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6595,
+        "rownum": 6342.0,
+        "dependencyIdList": [],
+        "planningWindowType": "Published"
+      }
+    },
+    {
+      "title": "t.\u7463\u4e8b",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-24T09:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6596,
+        "rownum": 6343.0,
+        "dependencyIdList": [],
+        "planningWindowType": "Published"
+      }
+    },
+    {
+      "title": "t.\u7463\u4e8b",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-24T10:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6597,
+        "rownum": 6344.0,
+        "dependencyIdList": [],
+        "planningWindowType": "Published"
+      }
+    },
+    {
+      "title": "t.\u7463\u4e8b",
+      "description": "\u7533\u8acb\u65fa\u5b8f\u734e\u5b78\u91d1",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 90.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "chronoProperty": {
+        "startTime": "2020-04-14T23:59:00-07:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 5333,
+        "rownum": 6345.0,
+        "dependencyIdList": [],
+        "planningWindowType": "Published"
+      }
+    },
+    {
+      "title": "t.\u7463\u4e8b",
+      "description": "End Of UCSD\u5c08\u6848",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "chronoProperty": {
+        "startTime": "2021-12-11T00:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6277,
+        "rownum": 6346.0,
+        "dependencyIdList": [],
+        "planningWindowType": "Published"
+      }
+    }
+  ],
+  "blockStartTime": "2019-12-24T18:36:00-08:00[America/Los_Angeles]",
+  "blockEndTime": "2021-12-11T00:00:00-08:00[America/Los_Angeles]",
+  "blockStartRow": 6320.0,
+  "blockEndRow": 6346.0,
+  "blockScheduleAfter": "2019-12-24T18:36:00-08:00[America/Los_Angeles]",
+  "score": "",
+  "origin": "TCxlsb"
+}

@@ -1,0 +1,141 @@
+{
+  "timelineEntryList": [
+    {
+      "title": "Deadline",
+      "description": "HW 7 (probability) due",
+      "id": 6014,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-11-25T22:59:12-08:00[America/Los_Angeles]",
+      "deadline": "2021-12-11T00:00:01-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6417.0,
+      "dependencyIdList": []
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "id": 5614,
+      "humanStateChange": {
+        "currentLocation": "8855 Villa La Jolla Drive",
+        "movetoLocation": "8855 Villa La Jolla Drive",
+        "duration": 435.99999999999886,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-11-25T23:59:12-08:00[America/Los_Angeles]",
+      "deadline": "2021-12-11T00:00:01-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6418.0,
+      "dependencyIdList": []
+    },
+    {
+      "title": "t.\u7463\u4e8b",
+      "description": "HW8 due",
+      "id": 6002,
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-11-26T15:24:12-08:00[America/Los_Angeles]",
+      "deadline": "2021-12-11T00:00:01-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 0.0,
+      "gravity": 0.0,
+      "rownum": 6419.0,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 12\u5c08\u6848",
+      "description": "Lecture",
+      "id": 5971,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 79.99999999999991,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-11-26T15:29:12-08:00[America/Los_Angeles]",
+      "deadline": "2021-12-11T00:00:01-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 1.0,
+      "gravity": 0.0,
+      "rownum": 6420.0,
+      "dependencyIdList": []
+    },
+    {
+      "title": "CSE 12\u5c08\u6848",
+      "description": "Discussion\nHW9 overview",
+      "id": 5983,
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 34.99999999999992,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0
+      },
+      "startTime": "2019-11-26T18:29:12-08:00[America/Los_Angeles]",
+      "deadline": "2021-12-11T00:00:01-08:00[America/Los_Angeles]",
+      "movable": 0.0,
+      "changeable": 0.0,
+      "splittable": 1.0,
+      "gravity": 0.0,
+      "rownum": 6421.0,
+      "dependencyIdList": []
+    }
+  ],
+  "blockStartTime": "2019-11-25T22:59:12-08:00[America/Los_Angeles]",
+  "blockEndTime": "2019-11-26T19:04:12-08:00[America/Los_Angeles]",
+  "blockStartRow": 6417.0,
+  "blockEndRow": 6421.0,
+  "blockScheduleAfter": 6417.0,
+  "score": "",
+  "origin": "TCxlsb"
+}
