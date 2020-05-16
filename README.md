@@ -113,7 +113,8 @@ such as capacity also have to be updated in ValueEntryMap.json file.
 __Detect potential errors in the draft__\
 tcPlanner print out error message when encountering invalid input file.
 Perhaps you mistyped your start progress percentage to be greater than its end percentage,
-tcPlanner would ask you to fix them before proceeding to next step. 
+tcPlanner would ask you to fix them before proceeding to next step. \
+
 __Run the solver__\
 tcPlanner attemps to plan the input TimelineBlock.json with metaheuristic algorithms.
 Depend on the complexity of the draft, it may run for seconds, minutes, or indefinitely if the
