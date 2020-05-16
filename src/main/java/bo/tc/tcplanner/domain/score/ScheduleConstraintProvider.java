@@ -8,7 +8,6 @@ import org.optaplanner.core.api.score.stream.ConstraintFactory;
 import org.optaplanner.core.api.score.stream.ConstraintProvider;
 
 import java.time.Duration;
-import java.util.function.Function;
 
 import static bo.tc.tcplanner.app.SolverCore.DroolsTools.locationRestrictionCheck;
 import static org.optaplanner.core.api.score.stream.Joiners.equal;
@@ -133,8 +132,10 @@ public class ScheduleConstraintProvider implements ConstraintProvider {
                 .filter(allocation -> allocation.isFocused() &&
                         !allocation.getRequirementTimerangeMatch())
                 .penalizeLong("timeRequirement", HardMediumSoftLongScore.ONE_HARD,
-                        (a -> allocationWeight_raw(a) *
-                                -a.getRequirementTimerangeScore()));
+                        (a -> {
+                            long rawScore = a.getRequirementTimerangeScore();
+                            return allocationWeight_raw(a) * (rawScore < -5 ? -rawScore : 0);
+                        }));
     }
 
     // ************************************************************************
@@ -160,8 +161,10 @@ public class ScheduleConstraintProvider implements ConstraintProvider {
                 .filter(allocation -> allocation.isFocused() &&
                         !allocation.getAdviceTimerangeMatch())
                 .penalizeLong("timeAdvisory", HardMediumSoftLongScore.ONE_MEDIUM,
-                        (a -> allocationWeight_raw(a) *
-                                -a.getAdviceTimerangeScore()));
+                        (a -> {
+                            long rawScore = a.getRequirementTimerangeScore();
+                            return allocationWeight_raw(a) * (rawScore < -5 ? -rawScore : 0);
+                        }));
     }
 
     // ############################################################################
