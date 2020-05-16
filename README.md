@@ -1,16 +1,21 @@
 # tcPlanner: A Constraint-Based Time Blocking Planner
 ## Table of Contents
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+- [tcPlanner: A Constraint-Based Time Blocking Planner](#tcplanner-a-constraint-based-time-blocking-planner)
+  - [Table of Contents](#table-of-contents)
+  - [About The Project](#about-the-project)
+  - [Requirements](#requirements)
+  - [Getting Started](#getting-started)
+    - [Installation](#installation)
+    - [Usage](#usage)
+      - [Running the application](#running-the-application)
+      - [Providing a draft to the planner](#providing-a-draft-to-the-planner)
+    - [Time Blocking with tcPlanner](#time-blocking-with-tcplanner)
+  - [Roadmap](#roadmap)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Contact](#contact)
+  - [Acknowledgements](#acknowledgements)
 
 
 
