@@ -27,6 +27,7 @@ import bo.tc.tcplanner.domain.listeners.FocusedAllocationSetUpdatingVariableList
 import bo.tc.tcplanner.domain.listeners.PlanningDurationVariableUpdatingListener;
 import bo.tc.tcplanner.domain.listeners.ResourceStateChangeVariableListener;
 import bo.tc.tcplanner.domain.valueranges.FocusedEndDatesValueRange;
+import bo.tc.tcplanner.domain.valueranges.TimeRestrictDatesValueRange;
 import bo.tc.tcplanner.persistable.AbstractPersistable;
 import com.google.common.collect.Range;
 import com.google.common.collect.RangeSet;
@@ -147,7 +148,7 @@ public class Allocation extends AbstractPersistable implements Comparable<Alloca
     }
 
     @PlanningVariable(valueRangeProviderRefs =
-            {"continuousPlanningStartDateRange", "discretePlanningStartDateRange"},
+            {"continuousPlanningStartDateRange", "discretePlanningStartDateRange", "timerestrictPlanningStartDateRange"},
             strengthComparatorClass = StartDateStrengthComparator.class,
             reinitializeVariableEntityFilter = ReinitializeAllocationFilter.class, nullable = true)
     public ZonedDateTime getPlanningStartDate() {
@@ -373,8 +374,13 @@ public class Allocation extends AbstractPersistable implements Comparable<Alloca
 
     @ValueRangeProvider(id = "discretePlanningStartDateRange")
     public CountableValueRange<ZonedDateTime> getDiscretePlanningStartDateRange() {
-        // original value is included here
         return new FocusedEndDatesValueRange(this);
+    }
+
+    @ValueRangeProvider(id = "timerestrictPlanningStartDateRange")
+    public CountableValueRange<ZonedDateTime> getTimerestrictPlanningStartDateRange() {
+        // original value is included here
+        return new TimeRestrictDatesValueRange(this);
     }
 
     @ValueRangeProvider(id = "progressdeltaRange")

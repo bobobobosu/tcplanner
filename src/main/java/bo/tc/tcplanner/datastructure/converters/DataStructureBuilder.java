@@ -96,9 +96,9 @@ public class DataStructureBuilder {
                 .setResourceStateChange(new ResourceStateChange(schedule.special.dummyResourceStateChange))
                 .setChronoProperty(new ChronoProperty()
                         .setDraggable(0).setSubstitutable(0).setSplittable(0).setGravity(0)
-                        .setStartTime(schedule.getProblemTimelineBlock().getZonedBlockStartTime().minusDays(1).toString())
-                        .setDeadline(schedule.getProblemTimelineBlock().getZonedBlockEndTime().plusDays(1).toString())
-                        .setAliveline(schedule.getProblemTimelineBlock().getZonedBlockStartTime().minusDays(1).toString())
+                        .setStartTime(schedule.getProblemTimelineBlock().getZonedBlockStartTime().toString())
+                        .setDeadline(schedule.getProblemTimelineBlock().getZonedBlockEndTime().toString())
+                        .setAliveline(schedule.getProblemTimelineBlock().getZonedBlockStartTime().toString())
                         .setPriority(defaultPriority))
                 .setTimelineProperty(new TimelineProperty(schedule.special.dummyTimelineProperty)
                         .setPlanningWindowType(PropertyConstants.PlanningWindowTypes.types.History.name())));
@@ -115,9 +115,9 @@ public class DataStructureBuilder {
                 .setResourceStateChange(new ResourceStateChange(schedule.special.dummyResourceStateChange))
                 .setChronoProperty(new ChronoProperty()
                         .setDraggable(0).setSubstitutable(0).setSplittable(0).setGravity(0)
-                        .setStartTime(schedule.getProblemTimelineBlock().getZonedBlockEndTime().plusDays(1).toString())
-                        .setDeadline(schedule.getProblemTimelineBlock().getZonedBlockEndTime().plusDays(1).toString())
-                        .setAliveline(schedule.getProblemTimelineBlock().getZonedBlockStartTime().minusDays(1).toString())
+                        .setStartTime(schedule.getProblemTimelineBlock().getZonedBlockEndTime().toString())
+                        .setDeadline(schedule.getProblemTimelineBlock().getZonedBlockEndTime().toString())
+                        .setAliveline(schedule.getProblemTimelineBlock().getZonedBlockStartTime().toString())
                         .setPriority(defaultPriority))
                 .setTimelineProperty(new TimelineProperty(schedule.special.dummyTimelineProperty)
                         .setRownum(Integer.MAX_VALUE)
@@ -160,15 +160,15 @@ public class DataStructureBuilder {
                                         .setTaskChainIdList(new ArrayList<>())
                                         .setPlanningWindowType(PropertyConstants.PlanningWindowTypes.types.Draft.name()));
                         schedule.getTimelineEntryList().add(timelineEntry);
-                        if (!minimal) {
-                            IntStream.range(0, 300).forEach(x -> {
-                                Allocation allocation = new Allocation()
-                                        .setVolatileFlag(false)
-                                        .setSchedule(schedule);
-                                allocation.setTimelineEntry(timelineEntry);
-                                allocation.addToListSetIndex(schedule.getAllocationList());
-                            });
-                        }
+//                        if (!minimal) {
+                        IntStream.range(0, 300).forEach(x -> {
+                            Allocation allocation = new Allocation()
+                                    .setVolatileFlag(false)
+                                    .setSchedule(schedule);
+                            allocation.setTimelineEntry(timelineEntry);
+                            allocation.addToListSetIndex(schedule.getAllocationList());
+                        });
+//                        }
                     }
                 });
 

@@ -97,17 +97,18 @@ public class ListenerTools {
                 // get previous values
                 Map.Entry<AllocationKey, Allocation> prevEntry =
                         filteredResourceAllocations.get(x).lowerEntry(allocation.getAllocationKey());
-                if (prevEntry != null) {
-                    resourceTotal.add(
-                            x,
-                            prevEntry.getValue().getResourceTotal().getResource(x)
-                                    .getAppliedWithCap(
-                                            allocation.getTimelineEntry().getDeltaResourceTotal_hundredpercent()
-                                                    .getResourceWithProgress(x, 100,
-                                                            prevEntry.getValue().getProgressdelta()),
-                                            (int) (allocation.getSchedule().getValueEntryMap()
-                                                    .get(x.getResourceName()).getCapacity() * 100)));
-                }
+                ResourceTotalValue resourceTotalValue = prevEntry == null ?
+                        new ResourceTotalValue() : new ResourceTotalValue(prevEntry.getValue().getResourceTotal().getResource(x));
+                resourceTotal.add(
+                        x,
+                        resourceTotalValue
+                                .applyWithCap(
+                                        allocation.getTimelineEntry().getDeltaResourceTotal_hundredpercent()
+                                                .getResourceWithProgress(x, 100,
+                                                        allocation.getProgressdelta()),
+                                        (int) (allocation.getSchedule().getValueEntryMap()
+                                                .get(x.getResourceName()).getCapacity() * 100)));
+
             });
             if (scoreDirector != null) scoreDirector.beforeVariableChanged(allocation, "resourceTotal");
             allocation.setResourceTotal(resourceTotal);
@@ -126,14 +127,12 @@ public class ListenerTools {
                         new ResourceTotalValue() : new ResourceTotalValue(prevAlloction.getResourceTotal().getResource(k));
                 for (Allocation dirtyAllocation :
                         filteredResourceAllocations.get(k).tailMap(startingAllocation.getAllocationKey()).values()) {
-                    if (prevAlloction != null) {
-                        resourceTotalValue.applyWithCap(dirtyAllocation.getTimelineEntry().getDeltaResourceTotal_hundredpercent()
-                                        .getResourceWithProgress(
-                                                k, 100,
-                                                prevAlloction.getProgressdelta())
-                                , (int) (allocation.getSchedule().getValueEntryMap()
-                                        .get(k.getResourceName()).getCapacity() * 100));
-                    }
+                    resourceTotalValue.applyWithCap(dirtyAllocation.getTimelineEntry().getDeltaResourceTotal_hundredpercent()
+                                    .getResourceWithProgress(
+                                            k, 100,
+                                            dirtyAllocation.getProgressdelta())
+                            , (int) (allocation.getSchedule().getValueEntryMap()
+                                    .get(k.getResourceName()).getCapacity() * 100));
 
                     if (!resultResourceTotals.containsKey(dirtyAllocation)) {
                         resultResourceTotals.put(dirtyAllocation, new ResourceTotal(dirtyAllocation.getResourceTotal()));

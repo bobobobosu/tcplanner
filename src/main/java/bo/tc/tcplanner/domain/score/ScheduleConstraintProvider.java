@@ -131,12 +131,10 @@ public class ScheduleConstraintProvider implements ConstraintProvider {
     private Constraint timeRequirement(ConstraintFactory factory) {
         return factory.from(Allocation.class)
                 .filter(allocation -> allocation.isFocused() &&
-                        allocation.getRequirementTimerangeMatch())
-                .join(Long.class, equal(Allocation::getRequirementTimerangeScore, Function.identity()))
-                .filter((allocation, b) -> b < 5)
+                        !allocation.getRequirementTimerangeMatch())
                 .penalizeLong("timeRequirement", HardMediumSoftLongScore.ONE_HARD,
-                        ((a, aLong) -> allocationWeight_raw(a) *
-                                aLong));
+                        (a -> allocationWeight_raw(a) *
+                                -a.getRequirementTimerangeScore()));
     }
 
     // ************************************************************************
@@ -153,21 +151,17 @@ public class ScheduleConstraintProvider implements ConstraintProvider {
     private Constraint checkExcessResource(ConstraintFactory factory) {
         return factory.from(Allocation.class)
                 .filter(allocation -> allocation.isFocused())
-                .join(Long.class, equal(Allocation::getResourceElementMapExcessScore, Function.identity()))
-                .filter((allocation, b) -> b < 0)
                 .penalizeLong("checkExcessResource", HardMediumSoftLongScore.ONE_MEDIUM,
-                        ((a, aLong) -> allocationWeight_resource(a, -aLong)));
+                        a -> allocationWeight_resource(a, -a.getResourceElementMapExcessScore()));
     }
 
     private Constraint timeAdvisory(ConstraintFactory factory) {
         return factory.from(Allocation.class)
                 .filter(allocation -> allocation.isFocused() &&
-                        allocation.getAdviceTimerangeMatch())
-                .join(Long.class, equal(Allocation::getAdviceTimerangeScore, Function.identity()))
-                .filter((allocation, b) -> b < -5)
+                        !allocation.getAdviceTimerangeMatch())
                 .penalizeLong("timeAdvisory", HardMediumSoftLongScore.ONE_MEDIUM,
-                        ((a, aLong) -> allocationWeight_raw(a) *
-                                -aLong));
+                        (a -> allocationWeight_raw(a) *
+                                -a.getAdviceTimerangeScore()));
     }
 
     // ############################################################################
