@@ -1,29 +1,35 @@
 # JSON Schema for input files
+
 ## Table of Contents
 
-* [TimeHierarchyMap.json](#timehierarchymap)
-* [LocationHierarchyMap.json](locationhierarchymap)
-* [ValueEntryMap.json](#valueentrymap)
-* [TimelineBlock.json](#timelineblock)
+- [JSON Schema for input files](#json-schema-for-input-files)
+  - [Table of Contents](#table-of-contents)
+  - [TimeHierarchyMap.json](#timehierarchymapjson)
+  - [LocationHierarchyMap.json](#locationhierarchymapjson)
+  - [ValueEntryMap.json](#valueentrymapjson)
+  - [TimelineBlock.json](#timelineblockjson)
 
 ## TimeHierarchyMap.json
+
 Supported time strings:
-* iso8601 ("2019-09-23T00:00:00-07:00/2019-12-14T00:00:00-07:00")
-* weekday (1, 2, 3, 4, 5, 6, 7)
-* time ("11:00:00/13:00:00" specifies an interval)
+
+- iso8601 ("2019-09-23T00:00:00-07:00/2019-12-14T00:00:00-07:00")
+- weekday (1, 2, 3, 4, 5, 6, 7)
+- time ("11:00:00/13:00:00" specifies an interval)
+
 ```
 {
   "Fall Quarter": [                     // Name of the time definition
-    [       // List of time constraints (the result is the intersection of 
+    [       // List of time constraints (the result is the intersection of
             // all elements in this list)
       {
         "iso8601": [                    // Declare format for time string
             // List of time strings (element in the list are "or"ed together)
-          "2019-09-23T00:00:00-07:00/2019-12-14T00:00:00-07:00"  
+          "2019-09-23T00:00:00-07:00/2019-12-14T00:00:00-07:00"
         ]
       }
     ]
-  ], 
+  ],
   "Monday": [
     [
       {
@@ -45,38 +51,41 @@ Supported time strings:
 }
 ```
 
-
 ## LocationHierarchyMap.json
+
 Parent string is the location name.
 Child list contains location strings that can be implied by the parent location.
 For example, being at "Sunnyvale" means you are in California and U.S..
+
 ```
 {
   "": [
-    "", 
+    "",
     "LocationHierarchyMap"
-  ], 
+  ],
   "Sunnyvale": [
-    "Sunnyvale", 
-    "California", 
-    "U.S.", 
-    "Undefined", 
-    "", 
+    "Sunnyvale",
+    "California",
+    "U.S.",
+    "Undefined",
+    "",
     "LocationHierarchyMap"
-  ], 
+  ],
   "Taiwan Taoyuan International Airport": [
-    "Taiwan Taoyuan International Airport", 
-    "Taiwan", 
-    "Undefined", 
-    "", 
+    "Taiwan Taoyuan International Airport",
+    "Taiwan",
+    "Undefined",
+    "",
     "LocationHierarchyMap"
-  ], 
+  ],
 }
 ```
 
 ## ValueEntryMap.json
+
 ValueEntryMap contains properties of tasks and resources. The planner would add/remove
-tasks to the plan by creating tasks according to the prototypes defined in this list. 
+tasks to the plan by creating tasks according to the prototypes defined in this list.
+
 ```
 {
   "Sleep": {                                // task or resource name
@@ -91,12 +100,12 @@ tasks to the plan by creating tasks according to the prototypes defined in this 
         "movetoLocation": "Undefined",      // location after performing this task ("undefined" if no change)
         "duration": 476.24999999999284,     // duration in minutes
         "requirementTimerange": "Anytime",  // time window in which this task must perform
-        "adviceTimerange": "Sleep"          // preferred time window for this task 
+        "adviceTimerange": "Sleep"          // preferred time window for this task
       }
     ],
     "resourceStateChangeList": [            // list of resource changes after performing this task
       {
-        "mode": "delta",                    // "delta" if the amt in resourceChanges is delta from 
+        "mode": "delta",                    // "delta" if the amt in resourceChanges is delta from
                                             // previous state. "absolute" will overwrite the current resource
                                             // amount
         "resourceChange": {
@@ -106,7 +115,7 @@ tasks to the plan by creating tasks according to the prototypes defined in this 
     "progressChangeList": [
       {
         "progressDelta": 1,                 // progress percentage of this task (should between 0 and 1)
-                                            // beware that duration and resource change amount directly 
+                                            // beware that duration and resource change amount directly
                                             // links to this value
         "progressPreset": [                 // unused
           {
@@ -122,8 +131,8 @@ tasks to the plan by creating tasks according to the prototypes defined in this 
     ],
     "chronoProperty": {
       "draggable": 1,                       // 1 if this task can be moved around (not fixed at a time)
-      "substitutable": 1,                   // 1 if this task can be freely removed from draft 
-      "splittable": 0.0,                    // 1 if this task can be divided into portions 
+      "substitutable": 1,                   // 1 if this task can be freely removed from draft
+      "splittable": 0.0,                    // 1 if this task can be divided into portions
                                             // (each progressDelta sums to original progressDelta)
       "gravity": 0.0                        // -1 if this task is scheduled earlier the better,
                                             // 0 if this task is neutral
@@ -134,6 +143,7 @@ tasks to the plan by creating tasks according to the prototypes defined in this 
 ```
 
 ## TimelineBlock.json
+
 ```
 {
   "timelineEntryList": [                    // list of timeline entries, unsorted
@@ -145,7 +155,7 @@ tasks to the plan by creating tasks according to the prototypes defined in this 
         "movetoLocation": "Undefined",      // location after performing this task ("undefined" if no change)
         "duration": 471.99999999999886,     // duration in minutes
         "requirementTimerange": "Anytime",  // time window in which this task must perform
-        "adviceTimerange": "Sleep"          // preferred time window for this task 
+        "adviceTimerange": "Sleep"          // preferred time window for this task
       },
       "resourceStateChange": {
         "resourceChange": {                 // list of resource changes after performing this task
@@ -156,13 +166,13 @@ tasks to the plan by creating tasks according to the prototypes defined in this 
             }
           ]
         },
-        "mode": "delta"                     // "delta" if the amt in resourceChanges is delta from 
+        "mode": "delta"                     // "delta" if the amt in resourceChanges is delta from
                                             // previous state. "absolute" will overwrite the current resource
                                             // amount
       },
       "progressChange": {
         "progressDelta": 1.0,               // progress percentage of this task (should between 0 and 1)
-                                            // beware that duration and resource change amount directly 
+                                            // beware that duration and resource change amount directly
                                             // links to this value
         "progressPreset": [                 // unused
           {
@@ -193,10 +203,10 @@ tasks to the plan by creating tasks according to the prototypes defined in this 
         "startTime": "2020-06-13T01:00:00+08:00[Asia/Taipei]",  // initial planned start time
         "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",   // task must complete before deadline
         "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",  // task must start after aliveline
-        "priority": 1.0,                                        // larger number, higher priority 
-        "draggable": 0.0,                                       // 1 if this task can be moved around (not fixed at a time)              
-        "substitutable": 0.0,                                   // 1 if this task can be freely removed from draft 
-        "splittable": 0.0,                                      // 1 if this task can be divided into portions 
+        "priority": 1.0,                                        // larger number, higher priority
+        "draggable": 0.0,                                       // 1 if this task can be moved around (not fixed at a time)
+        "substitutable": 0.0,                                   // 1 if this task can be freely removed from draft
+        "splittable": 0.0,                                      // 1 if this task can be divided into portions
         "gravity": 0.0                                          // -1 if this task is scheduled earlier the better,
                                                                 // 0 if this task is neutral
                                                                 // 1 if this task is scheduled later the better
