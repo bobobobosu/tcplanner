@@ -98,9 +98,8 @@ To get an idea on how these json documents are formatted, please look into the R
 file in the *example files* folder.
 
 ### Time Blocking with tcPlanner
-Usually, there are four stages in generating a good time blocking plan.
 
-####Step 1: Make a rough draft 
+__Make a rough draft__\
 You have to make a rough draft for what you are going to do in the next three days, 
 three months or three years. In the draft, you don't have to determine when you start 
 these task. But you have to state the **constraints** carefully. Information such as
@@ -111,11 +110,11 @@ such as capacity also have to be updated in ValueEntryMap.json file.
 ![Rough drafts](readme_data/ss7.png)
 *Rough drafts are low quality plans. Most of the constraints are not satisfied*
 
-####Step 2: Detect potential errors in the draft
+__Detect potential errors in the draft__\
 tcPlanner print out error message when encountering invalid input file.
 Perhaps you mistyped your start progress percentage to be greater than its end percentage,
 tcPlanner would ask you to fix them before proceeding to next step. 
-####Step 3: Run the solver
+__Run the solver__\
 tcPlanner attemps to plan the input TimelineBlock.json with metaheuristic algorithms.
 Depend on the complexity of the draft, it may run for seconds, minutes, or indefinitely if the
 draft is inherently unsolvable. Usually, it takes a few seconds to generate a 
@@ -125,7 +124,7 @@ optimal.
 ![Rough drafts](readme_data/ss5.png)
 *tcPlanner working on scheduling the tasks*
 
-####Step 4: Do final adjustments
+__Do final adjustments__\
 In this step, you can stop the planner and adjust the plan as you like. Then, you 
 can retrieve the plane through a POST request. The plan would stay in the planner
 until your next draft overwrites it.
