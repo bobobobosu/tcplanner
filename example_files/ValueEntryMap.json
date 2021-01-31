@@ -1,0 +1,279 @@
+{
+  "Sleep": {
+    "wbs": 0,
+    "type": "task",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 476.24999999999284,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 0.0,
+      "gravity": 0.0
+    }
+  },
+  
+  "Dinner": {
+    "wbs": 0,
+    "type": "task",
+    "classification": "*",
+    "capacity": 2.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 35.0,
+        "requirementTimerange": "Evening",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": 1.0,
+              "location": "Anywhere"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 0.0,
+      "gravity": 0.0
+    }
+  },
+
+  "Lunch": {
+    "wbs": 0,
+    "type": "task",
+    "classification": "*",
+    "capacity": 2.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 30.0,
+        "requirementTimerange": "Noon",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": 1.0,
+              "location": "Anywhere"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 0.0,
+      "gravity": 0.0
+    }
+  },
+
+  "t.Gym Workout": {
+    "wbs": 0,
+    "type": "task",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 53.49999999999955,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": 3.0,
+              "location": "Anywhere"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.Calories Consumption": {
+    "wbs": 0,
+    "type": "resource",
+    "classification": "*",
+    "capacity": 20.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.meal": {
+    "wbs": 0,
+    "type": "resource",
+    "classification": "*",
+    "capacity": 3.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  }
+}

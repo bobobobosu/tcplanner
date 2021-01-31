@@ -1,0 +1,234 @@
+{
+  "": [
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "Sunnyvale": [
+    "Sunnyvale", 
+    "California", 
+    "U.S.", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "Taiwan Taoyuan International Airport": [
+    "Taiwan Taoyuan International Airport", 
+    "Taiwan", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "Taipei": [
+    "Taipei", 
+    "Taiwan", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "Cook": [
+    "Cook", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "San Jose": [
+    "San Jose", 
+    "California", 
+    "U.S.", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "San Diego": [
+    "San Diego", 
+    "California", 
+    "U.S.", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "U.S.": [
+    "U.S.", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "De Anza, Main Campus": [
+    "De Anza, Main Campus", 
+    "Cupertino", 
+    "San Jose", 
+    "California", 
+    "U.S.", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "1165 E Arques Ave, Sunnyvale, CA 94085": [
+    "1165 E Arques Ave, Sunnyvale, CA 94085", 
+    "Sunnyvale", 
+    "California", 
+    "U.S.", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "Gym": [
+    "Gym", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "Home": [
+    "Home", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "10411 Flora Vista Ave": [
+    "10411 Flora Vista Ave", 
+    "Cupertino", 
+    "San Jose", 
+    "California", 
+    "U.S.", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap", 
+    "Cook", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "University of California San Diego": [
+    "University of California San Diego", 
+    "San Diego", 
+    "California", 
+    "U.S.", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap", 
+    "Gym", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "Undefined": [
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "Cupertino": [
+    "Cupertino", 
+    "San Jose", 
+    "California", 
+    "U.S.", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "3525 Lebon Dr": [
+    "3525 Lebon Dr", 
+    "La Jolla", 
+    "San Diego", 
+    "California", 
+    "U.S.", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap", 
+    "Home", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "La Jolla": [
+    "La Jolla", 
+    "San Diego", 
+    "California", 
+    "U.S.", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "California": [
+    "California", 
+    "U.S.", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "\u516b\u5fb7\u8def\u4e8c\u6bb5399\u865f": [
+    "\u516b\u5fb7\u8def\u4e8c\u6bb5399\u865f", 
+    "Taipei", 
+    "Taiwan", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap", 
+    "Home", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap", 
+    "Gym", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "9500 Gilman Dr, La Jolla": [
+    "9500 Gilman Dr, La Jolla", 
+    "University of California San Diego", 
+    "San Diego", 
+    "California", 
+    "U.S.", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "LocationHierarchyMap": [
+    "LocationHierarchyMap"
+  ], 
+  "San Francisco": [
+    "San Francisco", 
+    "California", 
+    "U.S.", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "1013 East Duane Ave": [
+    "1013 East Duane Ave", 
+    "Cupertino", 
+    "San Jose", 
+    "California", 
+    "U.S.", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "San Francisco International Airport": [
+    "San Francisco International Airport", 
+    "San Francisco", 
+    "California", 
+    "U.S.", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "Taiwan": [
+    "Taiwan", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ], 
+  "8855 Villa La Jolla Drive": [
+    "8855 Villa La Jolla Drive", 
+    "La Jolla", 
+    "San Diego", 
+    "California", 
+    "U.S.", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap", 
+    "Cook", 
+    "Undefined", 
+    "", 
+    "LocationHierarchyMap"
+  ]
+}

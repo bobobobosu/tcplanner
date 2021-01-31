@@ -1,0 +1,893 @@
+{
+  "timelineEntryList": [
+    {
+      "title": "Back Home",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "3525 Lebon Dr",
+        "duration": 20.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-13T21:15:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 1.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6401,
+        "rownum": 6398.0,
+        "planningWindowType": "History",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          6401
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Home",
+        "duration": 382.6360026725429,
+        "requirementTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": 1.0,
+              "location": "[Home]"
+            },
+            {
+              "amt": -1.0,
+              "location": "[Home]"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": 2.0,
+              "location": "[Home]"
+            },
+            {
+              "amt": -1.0,
+              "location": "Home"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": 1.0,
+              "location": "[Home]"
+            },
+            {
+              "amt": -1.0,
+              "location": "[Home]"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": 2.0,
+              "location": "[Home]"
+            },
+            {
+              "amt": -1.0,
+              "location": "[Home]"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": 1.0,
+              "location": "[Home]"
+            },
+            {
+              "amt": -1.0,
+              "location": "[Home]"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-13T23:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6658,
+        "rownum": 6399.0,
+        "planningWindowType": "History",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          6658
+        ]
+      }
+    },
+    {
+      "title": "ANTH 21\u5c08\u6848",
+      "description": "Lecture",
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 80.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-14T11:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6748,
+        "rownum": 6400.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          6748
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "HW3",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "[Undefined]"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-14T18:49:00-08:00[America/Los_Angeles]",
+        "deadline": "2020-01-14T18:50:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6337,
+        "rownum": 6401.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          6337
+        ]
+      }
+    },
+    {
+      "title": "CSE 105\u5c08\u6848",
+      "description": "Lecture",
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 50.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-15T08:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6833,
+        "rownum": 6402.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          6833
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "HW1 Due",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "[Undefined]"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-15T10:59:00-08:00[America/Los_Angeles]",
+        "deadline": "2020-01-15T11:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6272,
+        "rownum": 6403.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          6272
+        ]
+      }
+    },
+    {
+      "title": "MATH 183\u5c08\u6848",
+      "description": "Lecture",
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 50.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-15T12:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1979,
+        "rownum": 6404.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1979
+        ]
+      }
+    },
+    {
+      "title": "CSE 30\u5c08\u6848",
+      "description": "Lecture",
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 50.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-15T14:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6784,
+        "rownum": 6405.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          6784
+        ]
+      }
+    },
+    {
+      "title": "EDS 126\u5c08\u6848",
+      "description": "Lecture",
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 80.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-15T17:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6877,
+        "rownum": 6406.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          6877
+        ]
+      }
+    },
+    {
+      "title": "ANTH 21\u5c08\u6848",
+      "description": "Discussion",
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 50.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-15T18:45:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 1.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6771,
+        "rownum": 6407.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          6771
+        ]
+      }
+    },
+    {
+      "title": "CSE 30\u5c08\u6848",
+      "description": "Discussion",
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 50.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-15T20:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6817,
+        "rownum": 6408.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          6817
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Home",
+        "duration": 382.6360026725429,
+        "requirementTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "[Home]"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Home"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "[Home]"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "[Home]"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "[Home]"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-15T23:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6659,
+        "rownum": 6409.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          6659
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "DIS 2.4-2.7",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "[Undefined]"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-16T10:59:00-08:00[America/Los_Angeles]",
+        "deadline": "2020-01-16T11:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6223,
+        "rownum": 6410.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          6223
+        ]
+      }
+    },
+    {
+      "title": "ANTH 21\u5c08\u6848",
+      "description": "Lecture",
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 80.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-16T11:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6749,
+        "rownum": 6411.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          6749
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Home",
+        "duration": 382.6360026725429,
+        "requirementTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "[Home]"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Home"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "[Home]"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "[Home]"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "[Home]"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-16T23:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6660,
+        "rownum": 6412.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          6660
+        ]
+      }
+    },
+    {
+      "title": "CSE 105\u5c08\u6848",
+      "description": "Lecture",
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 50.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-17T08:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 6834,
+        "rownum": 6413.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          6834
+        ]
+      }
+    },
+    {
+      "title": "MATH 183\u5c08\u6848",
+      "description": "Lecture",
+      "humanStateChange": {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "University of California San Diego",
+        "duration": 50.0,
+        "requirementTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-01-17T12:00:00-08:00[America/Los_Angeles]",
+        "deadline": "2023-01-01T00:00:00-08:00[America/Los_Angeles]",
+        "movable": 0.0,
+        "changeable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1981,
+        "rownum": 6414.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1981
+        ]
+      }
+    }
+  ],
+  "blockStartTime": "2020-01-13T21:15:00-08:00[America/Los_Angeles]",
+  "blockEndTime": "2020-01-17T12:50:00-08:00[America/Los_Angeles]",
+  "blockStartRow": 6398.0,
+  "blockEndRow": 6414.0,
+  "blockScheduleAfter": "2020-01-13T23:23:18-08:00[America/Los_Angeles]",
+  "score": "",
+  "origin": "TCxlsb"
+}

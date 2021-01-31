@@ -1,0 +1,2 @@
+cd ../
+java -server -ea --module-path "C:\Program Files\Java\javafx-sdk-11.0.2\lib" --add-modules javafx.controls,javafx.fxml -Dfile.encoding=UTF-8 -Djava.rmi.server.hostname=192.168.192.18 -cp target\tcplanner-core-1.0-SNAPSHOT.jar bo.tc.tcplanner.TCCore

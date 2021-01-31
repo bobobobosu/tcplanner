@@ -1,0 +1,4702 @@
+{
+  "blank": {
+    "wbs": 0,
+    "type": "core",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "_Example": {
+    "wbs": 0,
+    "type": "core",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u6d17\u6fa1": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 9.000000000000002,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.Clean Body": [
+            {
+              "amt": 1.0,
+              "location": "[Home]"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 0.0,
+      "gravity": 0.0
+    }
+  },
+  "\u665a\u9910": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 2.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 26.999999999999897,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 26.999999999999897,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": 1.0,
+              "location": "[Undefined]"
+            }
+          ]
+        }
+      },
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.\u665a\u9910": [
+            {
+              "amt": -1.0,
+              "location": "[Undefined]"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 0.626296295995492,
+            "milestone": "Make food",
+            "task": "Make food",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.98,
+            "milestone": "Eat food",
+            "task": "Eat food",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Clean up",
+            "task": "Clean up",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 0.626296295995492,
+            "milestone": "Make food",
+            "task": "Make food",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.98,
+            "milestone": "Eat food",
+            "task": "Eat food",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Clean up",
+            "task": "Clean up",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 0.0,
+      "gravity": 0.0
+    }
+  },
+  "\u7761\u7720": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 472.49999999999955,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "[Home]"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Home"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "[Home]"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "[Home]"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "[Home]"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 0.0,
+      "gravity": 0.0
+    }
+  },
+  "SU-MIN": {
+    "wbs": 0,
+    "type": "\u6838\u5fc3",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.010000000000000002,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.\u65b0\u53f0\u5e63TWD": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 9999999999999990.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u74b0\u5883\u6e05\u7406_\u771f\u5be6\u74b0\u5883": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 19.249999999999986,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.Clean Room": [
+            {
+              "amt": 7.0,
+              "location": "[Home]"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 0.0,
+      "gravity": 0.0
+    }
+  },
+  "\u74b0\u5883\u6e05\u7406_\u8cc7\u8a0a\u74b0\u5883": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 5.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 0.0,
+      "gravity": 0.0
+    }
+  },
+  "\u5c08\u6848(2)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u6642\u5e8f\u5c08\u6848(288)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 1051200.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u5206\u985e\u5c08\u6848(287)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 40521600.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u5927\u5b78\u5347\u5b78\u5c08\u6848": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 336000.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u6280\u80fd\u5c08\u6848(358)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 4657655.172413793,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u8cc7\u8a0a\u7a81\u7834\u5c08\u6848(268)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 4657655.172413793,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u96dc\u9805\u5c08\u6848(260)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 1863062.0689655172,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u65e5\u5e38\u5c08\u6848(327)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 21611520.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u4eba\u9ad4\u5c08\u6848(361)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 900479.9999999999,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u5f62\u8c61\u5c08\u6848(384)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 900479.9999999999,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u91d1\u9322\u96dc\u9805\u5c08\u6848(357)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 465765.5172413793,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u5bb6\u5ead\u5c08\u6848(383)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 900479.9999999999,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u5275\u696d\u5c08\u6848(328)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 639480.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u7814\u7a76\u6240\u5347\u5b78\u5c08\u6848(381)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 336000.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "Transfer\u5c08\u6848(265)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 336000.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u52d5\u614b\u6280\u80fd\u5c08\u6848": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 720.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u716e\u98ef\u5c08\u6848(551)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u5c08\u6848\u7d50\u69cb\u5be6\u73fe\u5c08\u6848(279)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 169369.27899686524,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u7463\u4e8b\u5c08\u6848(300)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 1693692.7899686517,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.\u7f8e\u91d1USD": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 9999999999999990.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "Transfer\u65e5\u5e38\u5c08\u6848_\u5b8c\u5584\u968e\u6bb5\u5c08\u6848(533)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 5040.000000000001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u82f1\u6587\u8a9e\u8a00\u5c08\u6848(544)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "Course GPA\u5c08\u6848(546)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 268800.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "Transfer\u65e5\u5e38\u5c08\u6848(521)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 16800.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u9078\u8ab2\u5c08\u6848(595)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.\u665a\u9910": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.\u4e00\u9910\u98df\u7269\u539f\u6599": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 7.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.meal": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u8a9e\u8a00\u6280\u80fd\u5c08\u6848": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 14.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.MATH Quiz Prep": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.CIS Quiz Prep": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.CIS Assignment": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "t.MATH Quiz Prep": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.MATH Quiz Prep": [
+            {
+              "amt": 1.0,
+              "location": "[Undefined]"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 0.0753292378878929,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.46,
+            "milestone": "L Stage",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.881520816250473,
+            "milestone": "W Stage",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "M Stage",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.6,
+            "milestone": "Sample Done",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "L Stage"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Reading Done",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "L Stage"
+          },
+          {
+            "percentage": 0.6,
+            "milestone": "Sample Done",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "M Stage"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Do Questions",
+            "task": "Do Questions",
+            "taskCount": 10.0,
+            "upMilestone": "Midterm Review"
+          },
+          {
+            "percentage": 0.3,
+            "milestone": "Slides",
+            "task": "Slides",
+            "taskCount": 1.0,
+            "upMilestone": "Reading Done"
+          },
+          {
+            "percentage": 0.8,
+            "milestone": "Textbook",
+            "task": "Textbook",
+            "taskCount": 1.0,
+            "upMilestone": "Reading Done"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Piazza Resources",
+            "task": "Piazza Resources",
+            "taskCount": 1.0,
+            "upMilestone": "Reading Done"
+          },
+          {
+            "percentage": 0.468602276601227,
+            "milestone": "Homework",
+            "task": "Homework",
+            "taskCount": 8.0,
+            "upMilestone": "Sample Done"
+          },
+          {
+            "percentage": 0.85,
+            "milestone": "Midterm Review",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "Sample Done"
+          },
+          {
+            "percentage": 0.99,
+            "milestone": "Quiz",
+            "task": "Quiz",
+            "taskCount": 1.0,
+            "upMilestone": "Sample Done"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Discussion",
+            "task": "Discussion",
+            "taskCount": 1.0,
+            "upMilestone": "Sample Done"
+          },
+          {
+            "percentage": 0.6,
+            "milestone": "Sample Done",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "W Stage"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Reading Done",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "W Stage"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "t.CIS Quiz Prep": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 444.16666666666663,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.CIS Quiz Prep": [
+            {
+              "amt": 1.0,
+              "location": "[Undefined]"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 0.1,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.46,
+            "milestone": "L Stage",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.881520816250473,
+            "milestone": "W Stage",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "M Stage",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Do Homework",
+            "task": "Do Homework",
+            "taskCount": 30.0,
+            "upMilestone": "Homework"
+          },
+          {
+            "percentage": 0.6,
+            "milestone": "Sample Done",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "L Stage"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Reading Done",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "L Stage"
+          },
+          {
+            "percentage": 0.6,
+            "milestone": "Sample Done",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "M Stage"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Do Questions",
+            "task": "Do Questions",
+            "taskCount": 10.0,
+            "upMilestone": "Midterm Review"
+          },
+          {
+            "percentage": 0.3,
+            "milestone": "Slides",
+            "task": "Slides",
+            "taskCount": 1.0,
+            "upMilestone": "Reading Done"
+          },
+          {
+            "percentage": 0.8,
+            "milestone": "Textbook",
+            "task": "Textbook",
+            "taskCount": 1.0,
+            "upMilestone": "Reading Done"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Piazza Resources",
+            "task": "Piazza Resources",
+            "taskCount": 1.0,
+            "upMilestone": "Reading Done"
+          },
+          {
+            "percentage": 0.468602276601227,
+            "milestone": "Homework",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "Sample Done"
+          },
+          {
+            "percentage": 0.85,
+            "milestone": "Midterm Review",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "Sample Done"
+          },
+          {
+            "percentage": 0.99,
+            "milestone": "Quiz",
+            "task": "Quiz",
+            "taskCount": 1.0,
+            "upMilestone": "Sample Done"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Discussion",
+            "task": "Discussion",
+            "taskCount": 1.0,
+            "upMilestone": "Sample Done"
+          },
+          {
+            "percentage": 0.6,
+            "milestone": "Sample Done",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "W Stage"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Reading Done",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "W Stage"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "t.EWRT Reading Assignment": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 0.3,
+            "milestone": "Reading Done",
+            "task": "",
+            "taskCount": 1,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.6,
+            "milestone": "Highlighting done",
+            "task": "",
+            "taskCount": 1,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1,
+            "milestone": "Comparison Dome",
+            "task": "",
+            "taskCount": 1,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.3,
+            "milestone": "Wong",
+            "task": "Wong",
+            "taskCount": 1,
+            "upMilestone": "Reading Done"
+          },
+          {
+            "percentage": 0.6,
+            "milestone": "Rhode",
+            "task": "Rhode",
+            "taskCount": 1,
+            "upMilestone": "Reading Done"
+          },
+          {
+            "percentage": 1,
+            "milestone": "Kay & Shipman",
+            "task": "Kay & Shipman",
+            "taskCount": 1,
+            "upMilestone": "Reading Done"
+          },
+          {
+            "percentage": 0.3,
+            "milestone": "Wong",
+            "task": "Wong",
+            "taskCount": 1,
+            "upMilestone": "Highlighting done"
+          },
+          {
+            "percentage": 0.6,
+            "milestone": "Rhode",
+            "task": "Rhode",
+            "taskCount": 1,
+            "upMilestone": "Highlighting done"
+          },
+          {
+            "percentage": 1,
+            "milestone": "Kay & Shipman",
+            "task": "Kay & Shipman",
+            "taskCount": 1,
+            "upMilestone": "Highlighting done"
+          },
+          {
+            "percentage": 0.3,
+            "milestone": "Wong",
+            "task": "Wong",
+            "taskCount": 1,
+            "upMilestone": "Comparison Dome"
+          },
+          {
+            "percentage": 0.6,
+            "milestone": "Rhode",
+            "task": "Rhode",
+            "taskCount": 1,
+            "upMilestone": "Comparison Dome"
+          },
+          {
+            "percentage": 1,
+            "milestone": "Kay & Shipman",
+            "task": "Kay & Shipman",
+            "taskCount": 1,
+            "upMilestone": "Comparison Dome"
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          },
+          {
+            "percentage": "",
+            "milestone": "",
+            "task": "",
+            "taskCount": "",
+            "upMilestone": ""
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u7269\u54c1\u7a81\u7834\u5c08\u6848(589)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u7121\u4e0a\u5c64\u7dad\u8b77\u5c08\u6848(526)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u6b0a\u529b\u5c08\u6848(599)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u6642\u9593\u5e63\u7dad\u8b77\u5c08\u6848(527)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u5c08\u6848\u7dad\u8b77\u5c08\u6848(329)": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u6d17\u8863": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": 7.0,
+              "location": "[Home]"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 0.0,
+      "gravity": 0.0
+    }
+  },
+  "t.MATH Assignment": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 120.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.MATH Assignment": [
+            {
+              "amt": 1.0,
+              "location": "[Undefined]"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 0.04,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.69,
+            "milestone": "Question",
+            "task": "Do Question",
+            "taskCount": 6.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.833333333333333,
+            "milestone": "Check Answer",
+            "task": "Check Answer",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.916666666666666,
+            "milestone": "Check Format",
+            "task": "Check Format",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Submit",
+            "task": "Submit",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.MATH Assignment": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.Verizon Sean Payment": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.Rent Payment": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.BOA Credit Card Payment": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "t.Billing Cycle": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 30.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.Verizon Sean Payment": [
+            {
+              "amt": 1.0,
+              "location": "[Undefined]"
+            }
+          ],
+          "r.Rent Payment": [
+            {
+              "amt": 1.0,
+              "location": "[Undefined]"
+            }
+          ],
+          "r.BOA Credit Card Payment": [
+            {
+              "amt": 1.0,
+              "location": "[Undefined]"
+            }
+          ],
+          "r.Billing Cycle": [
+            {
+              "amt": 1.0,
+              "location": "[Undefined]"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "t.GE Quiz Prep": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 145.80555555527042,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.GE Quiz Prep": [
+            {
+              "amt": 1.0,
+              "location": "[Undefined]"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.GE Quiz Prep": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.Weekly Journal": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.GE Assignment": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "t.GE Assignment": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 38.999999999999936,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.GE Assignment": [
+            {
+              "amt": 1.0,
+              "location": "[Undefined]"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "MOVING:10411 Flora Vista Ave->De Anza, Main Campus": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Home",
+        "movetoLocation": "De Anza, Main Campus",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 0.0,
+      "gravity": 0.0
+    }
+  },
+  "t.Gym Workout": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Gym",
+        "movetoLocation": "Undefined",
+        "duration": 54.999999999999986,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": 3.0,
+              "location": "[Gym]"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "t.\u7463\u4e8b": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 45.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 0.0,
+      "gravity": 0.0
+    }
+  },
+  "ANTH 21\u5c08\u6848": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "Go School": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "3525 Lebon Dr",
+        "movetoLocation": "University of California San Diego",
+        "duration": 20.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 0.0,
+      "gravity": 1.0
+    }
+  },
+  "Back Home": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "3525 Lebon Dr",
+        "duration": 20.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 0.0,
+      "gravity": -1.0
+    }
+  },
+  "t.CIS Assignment": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 90.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": 1.0,
+              "location": "[Undefined]"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 0.03,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.25,
+            "milestone": "Function Done",
+            "task": "Function Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.5,
+            "milestone": "Test Done",
+            "task": "Test Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.75,
+            "milestone": "Style Done",
+            "task": "Style Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Check Done",
+            "task": "Check Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "Deadline": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.\u7463\u4e8b": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "t.BackOnTrack": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "t.TC Maintenance": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.Clean Room": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.Calories Consumption": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 20.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.Clean Body": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.Billing Cycle": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.Verizon Sean Payment": [
+            {
+              "amt": 1.0,
+              "location": "[Undefined]"
+            }
+          ],
+          "r.Rent Payment": [
+            {
+              "amt": 1.0,
+              "location": "[Undefined]"
+            }
+          ],
+          "r.BOA Credit Card Payment": [
+            {
+              "amt": 1.0,
+              "location": "[Undefined]"
+            }
+          ],
+          "r.Billing Cycle": [
+            {
+              "amt": -1.0,
+              "location": "[Undefined]"
+            }
+          ]
+        }
+      },
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.Verizon Sean Payment": [
+            {
+              "amt": -1.0,
+              "location": "[Undefined]"
+            }
+          ],
+          "r.Rent Payment": [
+            {
+              "amt": -1.0,
+              "location": "[Undefined]"
+            }
+          ],
+          "r.BOA Credit Card Payment": [
+            {
+              "amt": -1.0,
+              "location": "[Undefined]"
+            }
+          ],
+          "r.Billing Cycle": [
+            {
+              "amt": 1.0,
+              "location": "[Undefined]"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "t.Inventory": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "t.Unnamed": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "r.Internship Application": {
+    "wbs": 0,
+    "type": "\u5b58\u53d6\u6b0a",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "t.Internship Application": {
+    "wbs": 0,
+    "type": "\u5de5\u4f5c",
+    "classification": "*",
+    "capacity": 10.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      {
+        "currentLocation": "University of California San Diego",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.Internship Application": [
+            {
+              "amt": 1.0,
+              "location": "[University of California San Diego] WLH2001,HSS 1315"
+            }
+          ]
+        }
+      },
+      {
+        "mode": "delta",
+        "resourceChange": {
+          "r.Internship Application": [
+            {
+              "amt": -1.0,
+              "location": "[University of California San Diego] WLH2001,HSS 1315"
+            }
+          ]
+        }
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "t.Plan": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 208.7833333329763,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "CSE 100\u5c08\u6848": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "CSE 140\u5c08\u6848": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "CSE 140L\u5c08\u6848": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "MAE 184\u5c08\u6848": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "MGT 103\u5c08\u6848": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  },
+  "\u8eab\u5206\u5c08\u6848": {
+    "wbs": 0,
+    "type": "\u5c08\u6848(2)",
+    "classification": "*",
+    "capacity": 1.0,
+    "humanStateChangeList": [
+      {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.001,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      }
+    ],
+    "resourceStateChangeList": [
+      {
+        "mode": "delta",
+        "resourceChange": {}
+      }
+    ],
+    "progressChangeList": [
+      {
+        "progressDelta": 1,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      }
+    ],
+    "chronoProperty": {
+      "draggable": 1,
+      "substitutable": 1,
+      "splittable": 1.0,
+      "gravity": 0.0
+    }
+  }
+}

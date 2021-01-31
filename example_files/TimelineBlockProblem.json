@@ -1,0 +1,2861 @@
+{
+  "timelineEntryList": [
+    {
+      "title": "Anchor",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 0.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 8888,
+        "rownum": 288.0,
+        "planningWindowType": "History",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          8888
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-10T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1146,
+        "rownum": 289.0,
+        "planningWindowType": "History",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1146
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-11T10:51:45+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1147,
+        "rownum": 303.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1147
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": 5.0,
+              "location": "Anywhere"
+            },
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-12T07:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1148,
+        "rownum": 311.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1148
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-13T03:32:10+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1149,
+        "rownum": 314.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1149
+        ]
+      }
+    },
+    {
+      "title": "t.Gym Workout",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 50.999999999999915,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": 3.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-14T16:29:59+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 1.0,
+        "splittable": 1.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1379,
+        "rownum": 318.0,
+        "planningWindowType": "History",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1379
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-15T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1151,
+        "rownum": 319.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1151
+        ]
+      }
+    },
+    {
+      "title": "t.Gym Workout",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 45.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": 3.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-15T13:42:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 1.0,
+        "splittable": 1.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 312,
+        "rownum": 321.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          312
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-16T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1152,
+        "rownum": 327.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1152
+        ]
+      }
+    },
+    {
+      "title": "t.Gym Workout",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 47.99999999999995,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": 3.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-17T00:08:59+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 1.0,
+        "splittable": 1.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1318,
+        "rownum": 333.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1318
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-17T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1153,
+        "rownum": 334.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1153
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-18T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1154,
+        "rownum": 339.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1154
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-19T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1155,
+        "rownum": 346.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1155
+        ]
+      }
+    },
+    {
+      "title": "t.Gym Workout",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 45.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": 3.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-19T14:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 1.0,
+        "splittable": 1.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 993,
+        "rownum": 349.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          993
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-20T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1156,
+        "rownum": 353.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1156
+        ]
+      }
+    },
+    {
+      "title": "t.Gym Workout",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 45.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": 3.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-20T13:12:59+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 1.0,
+        "splittable": 1.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 272,
+        "rownum": 355.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          272
+        ]
+      }
+    },
+    {
+      "title": "t.Gym Workout",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 47.99999999999995,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": 3.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-21T01:22:59+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 1.0,
+        "splittable": 1.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1311,
+        "rownum": 358.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1311
+        ]
+      }
+    },
+    {
+      "title": "t.Gym Workout",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 45.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": 3.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-21T02:12:58+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 1.0,
+        "splittable": 1.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1098,
+        "rownum": 359.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1098
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-22T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1158,
+        "rownum": 363.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1158
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-23T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1159,
+        "rownum": 368.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1159
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-24T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1160,
+        "rownum": 371.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1160
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-25T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1161,
+        "rownum": 376.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1161
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-26T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1162,
+        "rownum": 383.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1162
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-27T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1163,
+        "rownum": 389.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1163
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-28T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1164,
+        "rownum": 399.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1164
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-29T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1165,
+        "rownum": 406.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1165
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-30T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1166,
+        "rownum": 411.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1166
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-31T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1167,
+        "rownum": 415.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1167
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-01T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1168,
+        "rownum": 419.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1168
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-02T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1169,
+        "rownum": 426.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1169
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Sleep",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.meal": [
+            {
+              "amt": -2.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-03T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1170,
+        "rownum": 430.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1170
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 471.99999999999886,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-04T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1171,
+        "rownum": 434.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1171
+        ]
+      }
+    },
+    {
+      "title": "t.Gym Workout",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 45.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": 3.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-04T08:53:59+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 1.0,
+        "splittable": 1.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 318,
+        "rownum": 435.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          318
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 471.99999999999886,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-05T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1172,
+        "rownum": 437.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1172
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 471.99999999999886,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-06T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1173,
+        "rownum": 444.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1173
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 471.99999999999886,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-07T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1174,
+        "rownum": 447.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1174
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 471.99999999999886,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-08T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1175,
+        "rownum": 450.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1175
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 471.99999999999886,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-09T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1176,
+        "rownum": 453.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1176
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 471.99999999999886,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-10T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1177,
+        "rownum": 460.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1177
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 471.99999999999886,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-11T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1178,
+        "rownum": 463.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1178
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 471.99999999999886,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-12T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1179,
+        "rownum": 466.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1179
+        ]
+      }
+    },
+    {
+      "title": "Sleep",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 471.99999999999886,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-13T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1180,
+        "rownum": 471.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1180
+        ]
+      }
+    }
+  ],
+  "blockStartTime": "2020-05-08T12:00:00+08:00[Asia/Taipei]",
+  "blockEndTime": "2020-06-13T08:52:00+08:00[Asia/Taipei]",
+  "blockScheduleAfter": "2020-05-08T12:30:00+08:00[Asia/Taipei]",
+  "score": "",
+  "origin": "TCxlsb"
+}

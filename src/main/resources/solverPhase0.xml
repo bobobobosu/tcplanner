@@ -1,0 +1,29 @@
+<solver>
+    <environmentMode>REPRODUCIBLE</environmentMode>
+    <moveThreadCount>AUTO</moveThreadCount>
+    <scanAnnotatedClasses>
+        <packageInclude>bo.tc.tcplanner</packageInclude>
+    </scanAnnotatedClasses>
+    <scoreDirectorFactory>
+        <constraintProviderClass>bo.tc.tcplanner.domain.score.ScheduleConstraintProvider</constraintProviderClass>
+        <constraintStreamImplType>BAVET</constraintStreamImplType>
+    </scoreDirectorFactory>
+    <constructionHeuristic>
+        <queuedEntityPlacer>
+            <entitySelector id="placerEntitySelector">
+                <cacheType>PHASE</cacheType>
+                <selectionOrder>SORTED</selectionOrder>
+                <filterClass>bo.tc.tcplanner.domain.filters.StartTimeCanChangeFilter</filterClass>
+                <sorterManner>DECREASING_DIFFICULTY</sorterManner>
+            </entitySelector>
+            <changeMoveSelector>
+                <entitySelector mimicSelectorRef="placerEntitySelector"/>
+                <valueSelector variableName="planningStartDate"/>
+            </changeMoveSelector>
+            <changeMoveSelector>
+                <entitySelector mimicSelectorRef="placerEntitySelector"/>
+                <valueSelector variableName="progressdelta"/>
+            </changeMoveSelector>
+        </queuedEntityPlacer>
+    </constructionHeuristic>
+</solver>

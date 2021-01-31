@@ -1,0 +1,5339 @@
+{
+  "timelineEntryList": [
+    {
+      "title": "t.\u7463\u4e8b",
+      "description": "\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\nRQ15",
+      "humanStateChange": {
+        "currentLocation": "\u516b\u5fb7\u8def\u4e8c\u6bb5399\u865f",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": 1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": 5.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.CIS Assignment": [
+            {
+              "amt": 1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": 5.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": 3.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": 1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1062,
+        "rownum": 50.0,
+        "planningWindowType": "History",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1062
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-03T22:20:23+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1140,
+        "rownum": 51.0,
+        "planningWindowType": "History",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1140
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "RQ15",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-03T18:02:18-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-13T09:30:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 77,
+        "rownum": 52.0,
+        "planningWindowType": "History",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          77
+        ]
+      }
+    },
+    {
+      "title": "\u665a\u9910",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 18.000000000000004,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": 1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.626296295995492,
+            "milestone": "Make food",
+            "task": "Make food",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.98,
+            "milestone": "Eat food",
+            "task": "Eat food",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Clean up",
+            "task": "Clean up",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-04T10:29:16+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 1.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 324,
+        "rownum": 53.0,
+        "planningWindowType": "History",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          324
+        ]
+      }
+    },
+    {
+      "title": "t.CIS Quiz Prep",
+      "description": "CSE140 Exam 3",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 399.9999999999989,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Quiz Prep": [
+            {
+              "amt": 0.91,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 0.91,
+        "progressPreset": [
+          {
+            "percentage": 0.1,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.46,
+            "milestone": "L Stage",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.881520816250473,
+            "milestone": "W Stage",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "M Stage",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Do Homework",
+            "task": "Do Homework",
+            "taskCount": 30.0,
+            "upMilestone": "Homework"
+          },
+          {
+            "percentage": 0.6,
+            "milestone": "Sample Done",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "L Stage"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Reading Done",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "L Stage"
+          },
+          {
+            "percentage": 0.6,
+            "milestone": "Sample Done",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "M Stage"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Do Questions",
+            "task": "Do Questions",
+            "taskCount": 10.0,
+            "upMilestone": "Midterm Review"
+          },
+          {
+            "percentage": 0.3,
+            "milestone": "Slides",
+            "task": "Slides",
+            "taskCount": 1.0,
+            "upMilestone": "Reading Done"
+          },
+          {
+            "percentage": 0.8,
+            "milestone": "Textbook",
+            "task": "Textbook",
+            "taskCount": 1.0,
+            "upMilestone": "Reading Done"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Piazza Resources",
+            "task": "Piazza Resources",
+            "taskCount": 1.0,
+            "upMilestone": "Reading Done"
+          },
+          {
+            "percentage": 0.468602276601227,
+            "milestone": "Homework",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "Sample Done"
+          },
+          {
+            "percentage": 0.85,
+            "milestone": "Midterm Review",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "Sample Done"
+          },
+          {
+            "percentage": 0.99,
+            "milestone": "Quiz",
+            "task": "Quiz",
+            "taskCount": 1.0,
+            "upMilestone": "Sample Done"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Discussion",
+            "task": "Discussion",
+            "taskCount": 1.0,
+            "upMilestone": "Sample Done"
+          },
+          {
+            "percentage": 0.6,
+            "milestone": "Sample Done",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "W Stage"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Reading Done",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "W Stage"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-04T12:14:13+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 1.0,
+        "splittable": 1.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1063,
+        "rownum": 54.0,
+        "planningWindowType": "History",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1063
+        ]
+      }
+    },
+    {
+      "title": "t.CIS Assignment",
+      "description": "HW2",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 239.33333333115937,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": 1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.03,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.25,
+            "milestone": "Function Done",
+            "task": "Function Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.5,
+            "milestone": "Test Done",
+            "task": "Test Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.75,
+            "milestone": "Style Done",
+            "task": "Style Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Check Done",
+            "task": "Check Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-04T20:22:11+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 1.0,
+        "splittable": 1.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1064,
+        "rownum": 55.0,
+        "planningWindowType": "History",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1064
+        ]
+      }
+    },
+    {
+      "title": "\u6d17\u6fa1",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 9.000000000000002,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Clean Body": [
+            {
+              "amt": 1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-05T01:48:29+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 1.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 935,
+        "rownum": 56.0,
+        "planningWindowType": "History",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          935
+        ]
+      }
+    },
+    {
+      "title": "t.CIS Assignment",
+      "description": "r/q 3.3,3.4,3.5,3.6,3.7,3.10,3.13,3.8,3.9",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 27.999999999999932,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": 1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.03,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.25,
+            "milestone": "Function Done",
+            "task": "Function Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.5,
+            "milestone": "Test Done",
+            "task": "Test Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.75,
+            "milestone": "Style Done",
+            "task": "Style Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Check Done",
+            "task": "Check Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-05T01:57:29+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 1.0,
+        "splittable": 1.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1065,
+        "rownum": 57.0,
+        "planningWindowType": "History",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1065
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "r/q 3.3,3.4,3.5,3.6,3.7,3.10,3.13,3.8,3.9",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-04T12:24:07-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-04T16:00:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 93,
+        "rownum": 58.0,
+        "planningWindowType": "History",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          93
+        ]
+      }
+    },
+    {
+      "title": "t.CIS Assignment",
+      "description": "PA5",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 148.9999999999997,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": 1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.03,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.25,
+            "milestone": "Function Done",
+            "task": "Function Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.5,
+            "milestone": "Test Done",
+            "task": "Test Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.75,
+            "milestone": "Style Done",
+            "task": "Style Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Check Done",
+            "task": "Check Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-05T03:24:07+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 940,
+        "rownum": 59.0,
+        "planningWindowType": "History",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          940
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-05T05:54:06+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1141,
+        "rownum": 60.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1141
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "HW2",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-04T23:53:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-04T23:59:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 138,
+        "rownum": 61.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [
+          1064
+        ],
+        "taskChainIdList": [
+          138
+        ]
+      }
+    },
+    {
+      "title": "\u665a\u9910",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 18.000000000000004,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": 1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.626296295995492,
+            "milestone": "Make food",
+            "task": "Make food",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.98,
+            "milestone": "Eat food",
+            "task": "Eat food",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Clean up",
+            "task": "Clean up",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-05T14:53:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 1.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 939,
+        "rownum": 62.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          939
+        ]
+      }
+    },
+    {
+      "title": "\u6d17\u6fa1",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.Clean Body": [
+            {
+              "amt": 1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-05T22:04:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 1.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1089,
+        "rownum": 63.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1089
+        ]
+      }
+    },
+    {
+      "title": "t.CIS Assignment",
+      "description": "RQ16",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": 1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.03,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.25,
+            "milestone": "Function Done",
+            "task": "Function Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.5,
+            "milestone": "Test Done",
+            "task": "Test Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.75,
+            "milestone": "Style Done",
+            "task": "Style Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Check Done",
+            "task": "Check Done",
+            "taskCount": 3.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-05T22:04:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 1.0,
+        "splittable": 1.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1020,
+        "rownum": 64.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1020
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-06T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1142,
+        "rownum": 65.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1142
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "RQ16",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-06T07:53:59-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-06T09:30:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 55,
+        "rownum": 66.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          55
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "PA5",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-06T09:30:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-06T09:30:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 76,
+        "rownum": 67.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [
+          940
+        ],
+        "taskChainIdList": [
+          76
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "Lab 2 DUE",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-06T10:00:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-09T23:59:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 121,
+        "rownum": 68.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          121
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-07T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1143,
+        "rownum": 69.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1143
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "Problem Set #5",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-06T23:48:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-06T23:59:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-04-27T18:00:00-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 102,
+        "rownum": 70.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          102
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "PA6",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-06T23:59:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-06T23:59:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 54,
+        "rownum": 71.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          54
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-08T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1144,
+        "rownum": 72.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1144
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "RQ17",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-08T09:30:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-08T09:30:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 56,
+        "rownum": 73.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          56
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-09T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1145,
+        "rownum": 74.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1145
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-10T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1146,
+        "rownum": 75.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1146
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "HW3",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-10T09:36:14-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-10T23:00:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 139,
+        "rownum": 76.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          139
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-11T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1147,
+        "rownum": 77.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1147
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "RQ18",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-11T03:22:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-11T09:30:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 57,
+        "rownum": 78.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          57
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "r/q 3.12,5.1,5.2,5.3,5.4,5.5,5.6,5.7,5.8,5.9",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-11T09:51:59-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-11T16:00:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 95,
+        "rownum": 79.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          95
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-12T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1148,
+        "rownum": 80.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1148
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "CSE140 Exam 3",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Quiz Prep": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-11T23:55:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-11T23:59:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 108,
+        "rownum": 81.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          108
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-13T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1149,
+        "rownum": 82.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1149
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "RQ19",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-13T08:52:59-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-13T09:30:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 58,
+        "rownum": 83.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          58
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-14T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1150,
+        "rownum": 84.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1150
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "Problem Set #6",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-13T23:45:59-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-13T23:59:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-04T18:00:00-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 103,
+        "rownum": 85.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          103
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-15T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1151,
+        "rownum": 86.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1151
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "RQ20",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-15T08:53:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-15T09:30:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 59,
+        "rownum": 87.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          59
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "Quiz 4",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.GE Quiz Prep": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-15T09:39:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-15T11:00:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-15T03:00:00-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 131,
+        "rownum": 88.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          131
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-16T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1152,
+        "rownum": 89.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1152
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-17T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1153,
+        "rownum": 90.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1153
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-18T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1154,
+        "rownum": 91.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1154
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "Lab 3 DUE",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-17T23:00:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-17T23:00:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 122,
+        "rownum": 92.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          122
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "RQ21",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-18T09:30:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-18T09:30:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 60,
+        "rownum": 93.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          60
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-19T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1155,
+        "rownum": 94.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1155
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-20T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1156,
+        "rownum": 95.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1156
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "RQ22",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-20T09:24:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-20T09:30:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 61,
+        "rownum": 96.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          61
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "Problem Set #7",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-20T20:11:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-20T23:59:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-20T18:00:00-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 104,
+        "rownum": 97.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          104
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-22T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1158,
+        "rownum": 98.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1158
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-23T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1159,
+        "rownum": 99.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1159
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-24T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1160,
+        "rownum": 100.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1160
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-25T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1161,
+        "rownum": 101.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1161
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "HW4",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-24T20:12:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-24T23:00:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 140,
+        "rownum": 102.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          140
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "Paired Presentation due",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.GE Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-25T08:50:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-25T11:00:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-19T00:00:00-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 135,
+        "rownum": 103.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          135
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "r/q 6.2,6.6",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-25T09:45:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-27T16:00:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 96,
+        "rownum": 104.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          96
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-26T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1162,
+        "rownum": 105.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1162
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "RQ25",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-26T03:15:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-29T09:30:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 65,
+        "rownum": 106.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          65
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-27T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1163,
+        "rownum": 107.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1163
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "CSE140 Exam 4",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Quiz Prep": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-26T23:55:59-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-26T23:59:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 109,
+        "rownum": 108.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          109
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "RQ24",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-27T09:04:59-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-27T09:30:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 63,
+        "rownum": 109.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          63
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "Project 1",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-27T09:11:59-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-27T09:30:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 79,
+        "rownum": 110.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          79
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-28T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1164,
+        "rownum": 111.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1164
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "Problem Set #8",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-27T22:57:58-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-27T23:59:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-25T18:00:00-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 105,
+        "rownum": 112.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          105
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-29T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1165,
+        "rownum": 113.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1165
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-30T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1166,
+        "rownum": 114.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1166
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-31T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1167,
+        "rownum": 115.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1167
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "ERSP Due",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {},
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-01T00:53:00+08:00[Asia/Taipei]",
+        "deadline": "2020-08-31T08:30:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 6,
+        "rownum": 116.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          6
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-01T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1168,
+        "rownum": 117.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1168
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "Lab 4 DUE",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-05-31T18:57:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-05-31T23:00:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 123,
+        "rownum": 118.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          123
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "RQ26",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-01T01:53:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-06-01T09:30:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 66,
+        "rownum": 119.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          66
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "r/q 6.10,6.7,6.8,6.9",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-01T09:54:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-06-01T16:00:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 97,
+        "rownum": 120.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          97
+        ]
+      }
+    },
+    {
+      "title": "Deadline",
+      "description": "Lab 5 DUE",
+      "humanStateChange": {
+        "currentLocation": "Undefined",
+        "movetoLocation": "Undefined",
+        "duration": 0.0,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Anytime"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.CIS Assignment": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 1.0,
+            "milestone": "",
+            "task": "",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-01T09:59:00-07:00[America/Los_Angeles]",
+        "deadline": "2020-06-01T23:00:00-07:00[America/Los_Angeles]",
+        "aliveline": "2020-05-03T05:53:26-07:00[America/Los_Angeles]",
+        "priority": 1.0,
+        "draggable": 1.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 1.0
+      },
+      "timelineProperty": {
+        "timelineid": 124,
+        "rownum": 121.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          124
+        ]
+      }
+    },
+    {
+      "title": "\u7761\u7720",
+      "description": "",
+      "humanStateChange": {
+        "currentLocation": "Home",
+        "movetoLocation": "Undefined",
+        "duration": 468.00000000000006,
+        "requirementTimerange": "Anytime",
+        "adviceTimerange": "Sleep"
+      },
+      "resourceStateChange": {
+        "resourceChange": {
+          "r.meal": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.\u4e00\u5957\u4e7e\u6de8\u8863\u8932": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Room": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Calories Consumption": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ],
+          "r.Clean Body": [
+            {
+              "amt": -1.0,
+              "location": "Anywhere"
+            }
+          ]
+        },
+        "mode": "delta"
+      },
+      "progressChange": {
+        "progressDelta": 1.0,
+        "progressPreset": [
+          {
+            "percentage": 0.112629629625007,
+            "milestone": "Prepare",
+            "task": "Prepare",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 0.95,
+            "milestone": "Sleep",
+            "task": "Sleep",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          },
+          {
+            "percentage": 1.0,
+            "milestone": "Wakeup",
+            "task": "Wakeup",
+            "taskCount": 1.0,
+            "upMilestone": "End"
+          }
+        ],
+        "progressLog": []
+      },
+      "chronoProperty": {
+        "startTime": "2020-06-02T01:00:00+08:00[Asia/Taipei]",
+        "deadline": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+        "aliveline": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+        "priority": 1.0,
+        "draggable": 0.0,
+        "substitutable": 0.0,
+        "splittable": 0.0,
+        "gravity": 0.0
+      },
+      "timelineProperty": {
+        "timelineid": 1169,
+        "rownum": 122.0,
+        "planningWindowType": "Published",
+        "dependencyIdList": [],
+        "taskChainIdList": [
+          1169
+        ]
+      }
+    }
+  ],
+  "blockStartTime": "2020-05-03T20:53:26+08:00[Asia/Taipei]",
+  "blockEndTime": "2020-06-02T08:48:00+08:00[Asia/Taipei]",
+  "blockScheduleAfter": "2020-05-05T03:27:22+08:00[Asia/Taipei]",
+  "score": "",
+  "origin": "TCxlsb"
+}
