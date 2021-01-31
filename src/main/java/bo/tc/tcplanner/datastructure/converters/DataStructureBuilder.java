@@ -121,12 +121,35 @@ public class DataStructureBuilder {
                         .setPriority(defaultPriority))
                 .setTimelineProperty(new TimelineProperty(schedule.special.dummyTimelineProperty)
                         .setRownum(Integer.MAX_VALUE)
+                        .setPlanningWindowType(PropertyConstants.PlanningWindowTypes.types.Draft.name())));
+
+        // This allocation passes through all filters, this prevents selectors throw `n must be positive` exception
+        Allocation dummyAllocation = new Allocation()
+                .setVolatileFlag(true)
+                .setSchedule(schedule);
+        dummyAllocation.setTimelineEntry(new TimelineEntry()
+                .setVolatileFlag(true)
+                .setTitle("dummy")
+                .setDescription("")
+                .setExecutionMode(0)
+                .setHumanStateChange(schedule.special.dummyHumamStateChange)
+                .setProgressChange(new ProgressChange().setProgressDelta(1))
+                .setResourceStateChange(new ResourceStateChange(schedule.special.dummyResourceStateChange))
+                .setChronoProperty(new ChronoProperty()
+                        .setDraggable(1).setSubstitutable(1).setSplittable(1).setGravity(0)
+                        .setStartTime(schedule.getProblemTimelineBlock().getZonedBlockEndTime().plusNanos(1).toString())
+                        .setDeadline(schedule.getProblemTimelineBlock().getZonedBlockEndTime().plusNanos(1).toString())
+                        .setAliveline(schedule.getProblemTimelineBlock().getZonedBlockStartTime().toString())
+                        .setPriority(defaultPriority))
+                .setTimelineProperty(new TimelineProperty(schedule.special.dummyTimelineProperty)
+                        .setRownum(Integer.MAX_VALUE)
                         .setPlanningWindowType(PropertyConstants.PlanningWindowTypes.types.History.name())));
 
         // Initialize Lists with dummy facts
         // first and second allocation must be source and sink
         sourceAllocation.addToListSetIndex(schedule.getAllocationList());
         sinkAllocation.addToListSetIndex(schedule.getAllocationList());
+        dummyAllocation.addToListSetIndex(schedule.getAllocationList());
         // First, second timelineEntry must follow this order
         schedule.setTimelineEntryList(new ArrayList<>(
                 Arrays.asList(
