@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solver>
     <environmentMode>REPRODUCIBLE</environmentMode>
-    <moveThreadCount>AUTO</moveThreadCount>
+    <moveThreadCount>1</moveThreadCount>
     <solutionClass>bo.tc.tcplanner.domain.planningstructures.Schedule</solutionClass>
     <entityClass>bo.tc.tcplanner.domain.planningstructures.Allocation</entityClass>
     <scoreDirectorFactory>

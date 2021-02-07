@@ -53,7 +53,9 @@ import javafx.stage.Stage;
 import javafx.util.StringConverter;
 import org.apache.commons.collections4.queue.CircularFifoQueue;
 import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
+import org.optaplanner.core.api.solver.SolverFactory;
 import org.optaplanner.core.impl.score.director.InnerScoreDirector;
+import org.optaplanner.core.impl.solver.DefaultSolverFactory;
 
 import java.io.IOException;
 import java.rmi.RemoteException;
@@ -675,9 +677,9 @@ public class TCGuiController {
     }
 
     private void initializeScoreDirector() {
-//        SolverFactory<Schedule> solverFactory = SolverFactory.createFromXmlResource("solverPhase1.xml");
-//        DefaultSolverFactory<Schedule> defaultSolverFactory = (DefaultSolverFactory<Schedule>) solverFactory;
-//        guiScoreDirector = defaultSolverFactory.getScoreDirectorFactory().buildScoreDirector();
+        SolverFactory<Schedule> solverFactory = SolverFactory.createFromXmlResource("solverPhase1.xml");
+        DefaultSolverFactory<Schedule> defaultSolverFactory = (DefaultSolverFactory<Schedule>) solverFactory;
+        guiScoreDirector = defaultSolverFactory.getScoreDirectorFactory().buildScoreDirector();
     }
 
     public void setOnlineGui() {
