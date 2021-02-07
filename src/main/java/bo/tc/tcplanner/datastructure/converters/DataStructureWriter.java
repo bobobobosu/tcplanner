@@ -5,9 +5,10 @@ import bo.tc.tcplanner.datastructure.*;
 import bo.tc.tcplanner.domain.planningstructures.Allocation;
 import bo.tc.tcplanner.domain.planningstructures.Schedule;
 import com.google.common.collect.Sets;
+import org.optaplanner.core.api.score.ScoreExplanation;
+import org.optaplanner.core.api.score.ScoreManager;
 import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
 import org.optaplanner.core.api.score.constraint.Indictment;
-import org.optaplanner.core.impl.score.director.ScoreDirector;
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -15,20 +16,19 @@ import java.util.stream.Collectors;
 
 import static bo.tc.tcplanner.PropertyConstants.defaultTimeZone;
 import static bo.tc.tcplanner.PropertyConstants.dtf_TimelineEntry;
-import static bo.tc.tcplanner.app.SolverCore.ScheduleSolver.getScoringScoreDirector;
+import static bo.tc.tcplanner.app.SolverCore.ScheduleSolver.getScoringScoreManager;
 import static bo.tc.tcplanner.app.SolverCore.Toolbox.hardConstraintMatchToString;
 import static bo.tc.tcplanner.app.SolverCore.Toolbox.jacksonDeepCopy;
 
 public class DataStructureWriter {
     public TimelineBlock generateTimelineBlockScore(Schedule result) {
         TimelineBlock timelineBlock = generateTimelineBlock(result);
-        ScoreDirector<Schedule> scoreDirector = getScoringScoreDirector();
-        scoreDirector.setWorkingSolution(result);
-        scoreDirector.calculateScore();
+        ScoreManager<Schedule, HardMediumSoftLongScore> scoreManager = getScoringScoreManager();
+        ScoreExplanation<Schedule, HardMediumSoftLongScore> scoreExplanation = scoreManager.explainScore(result);
         Map<Integer, Indictment> breakByTasks = new HashMap<>();
-        for (Map.Entry<Object, Indictment> indictmentEntry : scoreDirector.getIndictmentMap().entrySet()) {
+        for (Map.Entry<Object, Indictment<HardMediumSoftLongScore>> indictmentEntry : scoreExplanation.getIndictmentMap().entrySet()) {
             if (indictmentEntry.getValue().getJustification() instanceof Allocation &&
-                    ((HardMediumSoftLongScore) indictmentEntry.getValue().getScore()).getHardScore() < 0) {
+                    indictmentEntry.getValue().getScore().getHardScore() < 0) {
                 Allocation matchAllocation = (Allocation) indictmentEntry.getValue().getJustification();
                 if (matchAllocation.getTimelineEntry().getTimelineProperty().getTimelineid() != null)
                     breakByTasks.put(matchAllocation.getTimelineEntry().getTimelineProperty().getTimelineid(), indictmentEntry.getValue());

@@ -5,8 +5,8 @@ import bo.tc.tcplanner.domain.planningstructures.Allocation;
 import bo.tc.tcplanner.domain.planningstructures.Schedule;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.optaplanner.core.api.score.director.ScoreDirector;
 import org.optaplanner.core.impl.heuristic.move.AbstractMove;
-import org.optaplanner.core.impl.score.director.ScoreDirector;
 
 import java.util.Collection;
 import java.util.List;

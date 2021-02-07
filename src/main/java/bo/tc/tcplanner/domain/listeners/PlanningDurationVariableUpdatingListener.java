@@ -1,10 +1,11 @@
 package bo.tc.tcplanner.domain.listeners;
 
 import bo.tc.tcplanner.domain.planningstructures.Allocation;
-import org.optaplanner.core.impl.domain.variable.listener.VariableListener;
-import org.optaplanner.core.impl.score.director.ScoreDirector;
+import bo.tc.tcplanner.domain.planningstructures.Schedule;
+import org.optaplanner.core.api.domain.variable.VariableListener;
+import org.optaplanner.core.api.score.director.ScoreDirector;
 
-public class PlanningDurationVariableUpdatingListener implements VariableListener<Allocation> {
+public class PlanningDurationVariableUpdatingListener implements VariableListener<Schedule, Allocation> {
 
     @Override
     public void beforeEntityAdded(ScoreDirector scoreDirector, Allocation allocation) {

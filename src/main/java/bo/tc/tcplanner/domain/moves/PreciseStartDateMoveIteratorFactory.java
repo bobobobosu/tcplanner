@@ -2,13 +2,13 @@ package bo.tc.tcplanner.domain.moves;
 
 import bo.tc.tcplanner.domain.planningstructures.Allocation;
 import bo.tc.tcplanner.domain.planningstructures.Schedule;
+import org.optaplanner.core.api.score.director.ScoreDirector;
 import org.optaplanner.core.impl.heuristic.move.Move;
 import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveIteratorFactory;
-import org.optaplanner.core.impl.score.director.ScoreDirector;
 
 import java.util.*;
 
-public class PreciseStartDateMoveIteratorFactory implements MoveIteratorFactory<Schedule> {
+public class PreciseStartDateMoveIteratorFactory implements MoveIteratorFactory<Schedule, Move<Schedule>> {
     @Override
     public long getSize(ScoreDirector<Schedule> scoreDirector) {
         Schedule thisSchedule = scoreDirector.getWorkingSolution();
@@ -16,7 +16,7 @@ public class PreciseStartDateMoveIteratorFactory implements MoveIteratorFactory<
     }
 
     @Override
-    public Iterator<? extends Move<Schedule>> createOriginalMoveIterator(ScoreDirector<Schedule> scoreDirector) {
+    public Iterator createOriginalMoveIterator(ScoreDirector<Schedule> scoreDirector) {
         return new Iterator<Move<Schedule>>() {
             final Iterator<Allocation> allocationIterator = scoreDirector.getWorkingSolution().getAllocationList().iterator();
             Allocation thisAllocation = allocationIterator.next();
@@ -45,7 +45,7 @@ public class PreciseStartDateMoveIteratorFactory implements MoveIteratorFactory<
     }
 
     @Override
-    public Iterator<? extends Move<Schedule>> createRandomMoveIterator(ScoreDirector<Schedule> scoreDirector, Random random) {
+    public Iterator createRandomMoveIterator(ScoreDirector<Schedule> scoreDirector, Random random) {
         return new Iterator<Move<Schedule>>() {
             final ListIterator<Allocation> allocationIterator = scoreDirector.getWorkingSolution().getAllocationList()
                     .listIterator(scoreDirector.getWorkingSolution().getAllocationList().size());

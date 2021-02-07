@@ -7,6 +7,9 @@ import bo.tc.tcplanner.domain.planningstructures.Allocation;
 import bo.tc.tcplanner.domain.planningstructures.AllocationKey;
 import bo.tc.tcplanner.domain.planningstructures.ResourceTotal;
 import bo.tc.tcplanner.domain.planningstructures.Schedule;
+import org.optaplanner.core.api.score.ScoreExplanation;
+import org.optaplanner.core.api.score.ScoreManager;
+import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -14,6 +17,7 @@ import java.util.stream.IntStream;
 
 import static bo.tc.tcplanner.PropertyConstants.*;
 import static bo.tc.tcplanner.app.SolverCore.DroolsTools.getConstrintedTimeRange;
+import static bo.tc.tcplanner.app.SolverCore.ScheduleSolver.getScoringScoreManager;
 import static bo.tc.tcplanner.domain.listeners.ListenerTools.*;
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -367,6 +371,8 @@ public class DataStructureBuilder {
 
         // set Solver Phase
         schedule.solverPhase = SolverPhase.ACCURATE;
+        ScoreManager<Schedule, HardMediumSoftLongScore> scoreManager = getScoringScoreManager();
+        ScoreExplanation<Schedule, HardMediumSoftLongScore> scoreExplanation = scoreManager.explainScore(schedule);
         return this;
     }
 

@@ -1,8 +1,9 @@
 package bo.tc.tcplanner.domain.listeners;
 
 import bo.tc.tcplanner.domain.planningstructures.Allocation;
-import org.optaplanner.core.impl.domain.variable.listener.VariableListener;
-import org.optaplanner.core.impl.score.director.ScoreDirector;
+import bo.tc.tcplanner.domain.planningstructures.Schedule;
+import org.optaplanner.core.api.domain.variable.VariableListener;
+import org.optaplanner.core.api.score.director.ScoreDirector;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,7 +11,7 @@ import java.util.Optional;
 
 import static bo.tc.tcplanner.domain.listeners.ListenerTools.applyResourceTotalMap;
 
-public class ResourceStateChangeVariableListener implements VariableListener<Allocation> {
+public class ResourceStateChangeVariableListener implements VariableListener<Schedule, Allocation> {
     // Before State
     Map<Allocation, ProgressSnapshot> snapshotMap = new HashMap<>();
 

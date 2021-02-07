@@ -53,8 +53,7 @@ import javafx.stage.Stage;
 import javafx.util.StringConverter;
 import org.apache.commons.collections4.queue.CircularFifoQueue;
 import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
-import org.optaplanner.core.api.solver.SolverFactory;
-import org.optaplanner.core.impl.score.director.ScoreDirector;
+import org.optaplanner.core.impl.score.director.InnerScoreDirector;
 
 import java.io.IOException;
 import java.rmi.RemoteException;
@@ -65,12 +64,13 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 import static bo.tc.tcplanner.PropertyConstants.*;
+import static bo.tc.tcplanner.app.SolverCore.ScheduleSolver.getScoringScoreManager;
 import static bo.tc.tcplanner.app.Test.initializeExampleFiles;
 
 public class TCGuiController {
     // Objects
     private TCApp application;
-    private ScoreDirector<Schedule> guiScoreDirector;
+    private InnerScoreDirector<Schedule, ?> guiScoreDirector;
     private Stage primaryStage;
 
     // Example Data
@@ -675,8 +675,9 @@ public class TCGuiController {
     }
 
     private void initializeScoreDirector() {
-        SolverFactory<Schedule> solverFactory = SolverFactory.createFromXmlResource("solverPhase1.xml");
-        guiScoreDirector = solverFactory.getScoreDirectorFactory().buildScoreDirector();
+//        SolverFactory<Schedule> solverFactory = SolverFactory.createFromXmlResource("solverPhase1.xml");
+//        DefaultSolverFactory<Schedule> defaultSolverFactory = (DefaultSolverFactory<Schedule>) solverFactory;
+//        guiScoreDirector = defaultSolverFactory.getScoreDirectorFactory().buildScoreDirector();
     }
 
     public void setOnlineGui() {
@@ -765,7 +766,7 @@ public class TCGuiController {
         refreshDisplay();
 
         // Display Score & Explanation
-        Platform.runLater(() -> explanation_textarea.setText(guiScoreDirector.explainScore()));
+        Platform.runLater(() -> explanation_textarea.setText(getScoringScoreManager().explainScore(guiScoreDirector.getWorkingSolution()).getSummary()));
 
         // Initialize Resource
         Platform.runLater(() ->
@@ -1094,7 +1095,7 @@ public class TCGuiController {
 
     private String detailString(Allocation allocation) {
         if (allocation == null || allocation.getConstrainedStartDate() == null) return "";
-        Toolbox.PrettyPrintAlloc printAlloc = new Toolbox.PrettyPrintAlloc(guiScoreDirector);
+        Toolbox.PrettyPrintAlloc printAlloc = new Toolbox.PrettyPrintAlloc(allocation.getSchedule());
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         return printAlloc.prettyAllocation(allocation) + "\n" +
                 printAlloc.indictmentStr(allocation) + "\n" +

@@ -22,7 +22,6 @@ import bo.tc.tcplanner.datastructure.TimelineEntry;
 import bo.tc.tcplanner.domain.comparators.AllocationDifficultyComparator;
 import bo.tc.tcplanner.domain.comparators.ProgressDeltaStrengthComparator;
 import bo.tc.tcplanner.domain.comparators.StartDateStrengthComparator;
-import bo.tc.tcplanner.domain.filters.ReinitializeAllocationFilter;
 import bo.tc.tcplanner.domain.listeners.FocusedAllocationSetUpdatingVariableListener;
 import bo.tc.tcplanner.domain.listeners.PlanningDurationVariableUpdatingListener;
 import bo.tc.tcplanner.domain.listeners.ResourceStateChangeVariableListener;
@@ -149,8 +148,7 @@ public class Allocation extends AbstractPersistable implements Comparable<Alloca
 
     @PlanningVariable(valueRangeProviderRefs =
             {"discretePlanningStartDateRange", "timerestrictPlanningStartDateRange"},
-            strengthComparatorClass = StartDateStrengthComparator.class,
-            reinitializeVariableEntityFilter = ReinitializeAllocationFilter.class, nullable = true)
+            strengthComparatorClass = StartDateStrengthComparator.class, nullable = true)
     public ZonedDateTime getPlanningStartDate() {
         return planningStartDate;
     }
@@ -160,8 +158,7 @@ public class Allocation extends AbstractPersistable implements Comparable<Alloca
     }
 
     @PlanningVariable(valueRangeProviderRefs = {
-            "progressdeltaRange", "originalprogressdeltaRange"}, strengthComparatorClass = ProgressDeltaStrengthComparator.class,
-            reinitializeVariableEntityFilter = ReinitializeAllocationFilter.class)
+            "progressdeltaRange", "originalprogressdeltaRange"}, strengthComparatorClass = ProgressDeltaStrengthComparator.class)
     public Integer getProgressdelta() {
         return progressdelta;
     }

@@ -5,7 +5,7 @@ import bo.tc.tcplanner.datastructure.LocationHierarchyMap;
 import bo.tc.tcplanner.datastructure.ResourceElement;
 import bo.tc.tcplanner.datastructure.ResourceElementMap;
 import bo.tc.tcplanner.domain.planningstructures.*;
-import org.optaplanner.core.impl.score.director.ScoreDirector;
+import org.optaplanner.core.api.score.director.ScoreDirector;
 
 import java.time.Duration;
 import java.util.*;

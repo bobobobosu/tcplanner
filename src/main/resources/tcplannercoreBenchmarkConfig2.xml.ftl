@@ -59,8 +59,9 @@
 <#--                  <sorterManner>DECREASING_DIFFICULTY</sorterManner>',''] as entitySelector>-->
 <#--    <#list ['${simulatedAnnealing}',''] as algorithm>-->
     <#list [''] as algorithm>
-    <#list ['<constraintStreamImplType>BAVET</constraintStreamImplType>
-             <constraintProviderClass>bo.tc.tcplanner.domain.score.ScheduleConstraintProvider</constraintProviderClass>'] as scoreProvider>
+<#--    <#list ['<constraintStreamImplType>BAVET</constraintStreamImplType>-->
+<#--             <constraintProviderClass>ScheduleConstraintProvider</constraintProviderClass>'] as scoreProvider>-->
+    <#list ['<constraintProviderClass>ScheduleConstraintProvider</constraintProviderClass>'] as scoreProvider>
 <#--    <#list ['<scoreDrl>${scoreDrl}</scoreDrl>'] as scoreProvider>-->
 <#--    <#list [0.08] as delayWeight>-->
 <#--    <#list ['${(1-delayWeight)/2}'?number] as progressWeight>-->

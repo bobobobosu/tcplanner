@@ -10,13 +10,12 @@ import org.optaplanner.core.api.score.stream.ConstraintProvider;
 import java.time.Duration;
 
 import static bo.tc.tcplanner.app.SolverCore.DroolsTools.locationRestrictionCheck;
-import static org.optaplanner.core.api.score.stream.Joiners.equal;
 
 public class ScheduleConstraintProvider implements ConstraintProvider {
     @Override
     public Constraint[] defineConstraints(ConstraintFactory constraintFactory) {
         return new Constraint[]{
-                checkDependencyId(constraintFactory),
+//                checkDependencyId(constraintFactory),
                 checkTimeOverlapping(constraintFactory),
                 checkDeadline(constraintFactory),
                 checkAliveline(constraintFactory),
@@ -38,19 +37,19 @@ public class ScheduleConstraintProvider implements ConstraintProvider {
     // ************************************************************************
     // Hard constraints
     // ************************************************************************
-    private Constraint checkDependencyId(ConstraintFactory factory) {
-        return factory.from(Allocation.class)
-                .filter(allocation -> allocation.isFocused())
-                .join(Integer.class).filter(((allocation, integer) ->
-                        allocation.getTimelineEntry().getTimelineProperty().getDependencyIdList().contains(integer)))
-                .join(factory.from(Allocation.class).filter(Allocation::isFocused),
-                        equal(((a, b) -> b),
-                                (allocation -> allocation.getTimelineEntry().getTimelineProperty().getTimelineid())))
-
-                .penalizeLong("checkDependencyId", HardMediumSoftLongScore.ONE_HARD,
-                        (a, b, c) -> allocationWeight_raw(a) * 100);
-
-    }
+//    private Constraint checkDependencyId(ConstraintFactory factory) {
+//        return factory.from(Allocation.class)
+//                .filter(allocation -> allocation.isFocused())
+//                .join(Integer.class).filter(((allocation, integer) ->
+//                        allocation.getTimelineEntry().getTimelineProperty().getDependencyIdList().contains(integer)))
+//                .join(factory.from(Allocation.class).filter(Allocation::isFocused),
+//                        equal(((a, b) -> b),
+//                                (allocation -> allocation.getTimelineEntry().getTimelineProperty().getTimelineid())))
+//
+//                .penalizeLong("checkDependencyId", HardMediumSoftLongScore.ONE_HARD,
+//                        (a, b, c) -> allocationWeight_raw(a) * 100);
+//
+//    }
 
     private Constraint checkTimeOverlapping(ConstraintFactory factory) {
         return factory.from(Allocation.class)

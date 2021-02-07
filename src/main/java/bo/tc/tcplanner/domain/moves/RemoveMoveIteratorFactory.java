@@ -3,16 +3,16 @@ package bo.tc.tcplanner.domain.moves;
 import bo.tc.tcplanner.domain.planningstructures.Allocation;
 import bo.tc.tcplanner.domain.planningstructures.AllocationKey;
 import bo.tc.tcplanner.domain.planningstructures.Schedule;
+import org.optaplanner.core.api.score.director.ScoreDirector;
 import org.optaplanner.core.impl.heuristic.move.Move;
 import org.optaplanner.core.impl.heuristic.selector.move.factory.MoveIteratorFactory;
-import org.optaplanner.core.impl.score.director.ScoreDirector;
 
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Random;
 
-public class RemoveMoveIteratorFactory implements MoveIteratorFactory<Schedule> {
+public class RemoveMoveIteratorFactory implements MoveIteratorFactory<Schedule, Move<Schedule>> {
     Map<AllocationKey, Allocation> focusedAllocationMap;
     Iterator<Allocation> focusedAllocationIterator;
 
@@ -22,7 +22,7 @@ public class RemoveMoveIteratorFactory implements MoveIteratorFactory<Schedule> 
     }
 
     @Override
-    public Iterator<? extends Move<Schedule>> createOriginalMoveIterator(ScoreDirector<Schedule> scoreDirector) {
+    public Iterator createOriginalMoveIterator(ScoreDirector<Schedule> scoreDirector) {
         focusedAllocationMap = scoreDirector.getWorkingSolution().getFocusedAllocationSet();
         focusedAllocationIterator = focusedAllocationMap.values().iterator();
         return new Iterator<>() {
@@ -44,7 +44,7 @@ public class RemoveMoveIteratorFactory implements MoveIteratorFactory<Schedule> 
     }
 
     @Override
-    public Iterator<? extends Move<Schedule>> createRandomMoveIterator(ScoreDirector<Schedule> scoreDirector, Random workingRandom) {
+    public Iterator createRandomMoveIterator(ScoreDirector<Schedule> scoreDirector, Random workingRandom) {
         focusedAllocationMap = scoreDirector.getWorkingSolution().getFocusedAllocationSet();
 
         return new Iterator<>() {

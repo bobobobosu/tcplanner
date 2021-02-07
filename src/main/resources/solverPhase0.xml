@@ -1,18 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <solver>
     <environmentMode>REPRODUCIBLE</environmentMode>
     <moveThreadCount>AUTO</moveThreadCount>
-    <scanAnnotatedClasses>
-        <packageInclude>bo.tc.tcplanner</packageInclude>
-    </scanAnnotatedClasses>
+    <solutionClass>bo.tc.tcplanner.domain.planningstructures.Schedule</solutionClass>
+    <entityClass>bo.tc.tcplanner.domain.planningstructures.Allocation</entityClass>
     <scoreDirectorFactory>
         <constraintProviderClass>bo.tc.tcplanner.domain.score.ScheduleConstraintProvider</constraintProviderClass>
-        <constraintStreamImplType>BAVET</constraintStreamImplType>
     </scoreDirectorFactory>
     <constructionHeuristic>
         <queuedEntityPlacer>
             <entitySelector id="placerEntitySelector">
                 <cacheType>PHASE</cacheType>
                 <selectionOrder>SORTED</selectionOrder>
+                <filterClass>bo.tc.tcplanner.domain.filters.ReinitializeAllocationFilter</filterClass>
                 <filterClass>bo.tc.tcplanner.domain.filters.StartTimeCanChangeFilter</filterClass>
                 <sorterManner>DECREASING_DIFFICULTY</sorterManner>
             </entitySelector>

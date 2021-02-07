@@ -17,7 +17,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public abstract class TCApp extends Application {
     RMIInterface rmiInterface;
-    private final ConcurrentHashMap<String, Object> appStatusLock = new ConcurrentHashMap<>() {
+    private final ConcurrentHashMap<String, Object> appStatusLock = new ConcurrentHashMap<String, Object>() {
         {
             put("console", new Object());
             put("scoreexplaination", new StringBuilder());

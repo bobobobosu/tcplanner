@@ -20,18 +20,14 @@ import bo.tc.tcplanner.PropertyConstants.SolverPhase;
 import bo.tc.tcplanner.datastructure.*;
 import bo.tc.tcplanner.persistable.AbstractPersistable;
 import com.google.common.collect.Lists;
-import org.optaplanner.core.api.domain.solution.PlanningEntityCollectionProperty;
-import org.optaplanner.core.api.domain.solution.PlanningScore;
-import org.optaplanner.core.api.domain.solution.PlanningSolution;
-import org.optaplanner.core.api.domain.solution.drools.ProblemFactCollectionProperty;
-import org.optaplanner.core.api.domain.solution.drools.ProblemFactProperty;
+import org.optaplanner.core.api.domain.solution.*;
+import org.optaplanner.core.api.score.ScoreExplanation;
 import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
-import org.optaplanner.core.impl.score.director.ScoreDirector;
 
 import java.io.Serializable;
 import java.util.*;
 
-import static bo.tc.tcplanner.app.SolverCore.ScheduleSolver.getScoringScoreDirector;
+import static bo.tc.tcplanner.app.SolverCore.ScheduleSolver.getScoringScoreManager;
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkNotNull;
 
@@ -261,12 +257,10 @@ public class Schedule extends AbstractPersistable {
     }
 
     public static long unsolvedEntityCount(Schedule schedule) {
-        ScoreDirector<Schedule> scheduleScoreDirector = getScoringScoreDirector();
-        scheduleScoreDirector.setWorkingSolution(schedule);
-        scheduleScoreDirector.calculateScore();
+        ScoreExplanation<Schedule, HardMediumSoftLongScore> scoreExplanation = getScoringScoreManager().explainScore(schedule);
         return schedule.focusedAllocationSet.values().stream()
-                .filter(x -> scheduleScoreDirector.getIndictmentMap().containsKey(x) &&
-                        ((HardMediumSoftLongScore) scheduleScoreDirector.getIndictmentMap().get(x).getScore())
+                .filter(x -> scoreExplanation.getIndictmentMap().containsKey(x) &&
+                        scoreExplanation.getIndictmentMap().get(x).getScore()
                                 .getHardScore() < 0).count();
     }
 }

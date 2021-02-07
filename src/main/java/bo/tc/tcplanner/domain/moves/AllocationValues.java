@@ -1,7 +1,7 @@
 package bo.tc.tcplanner.domain.moves;
 
 import bo.tc.tcplanner.domain.planningstructures.Allocation;
-import org.optaplanner.core.impl.score.director.ScoreDirector;
+import org.optaplanner.core.api.score.director.ScoreDirector;
 
 import java.time.ZonedDateTime;
 import java.util.Objects;

@@ -6,11 +6,12 @@ import bo.tc.tcplanner.domain.planningstructures.ResourceTotal;
 import bo.tc.tcplanner.domain.planningstructures.Schedule;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.jakewharton.fliptables.FlipTable;
+import org.optaplanner.core.api.score.ScoreExplanation;
+import org.optaplanner.core.api.score.ScoreManager;
 import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
 import org.optaplanner.core.api.score.constraint.ConstraintMatch;
 import org.optaplanner.core.api.score.constraint.ConstraintMatchTotal;
 import org.optaplanner.core.api.score.constraint.Indictment;
-import org.optaplanner.core.impl.score.director.ScoreDirector;
 
 import java.awt.*;
 import java.io.IOException;
@@ -21,6 +22,7 @@ import java.util.List;
 import java.util.*;
 
 import static bo.tc.tcplanner.PropertyConstants.defaultTimeZone;
+import static bo.tc.tcplanner.app.SolverCore.ScheduleSolver.getScoringScoreManager;
 
 public class Toolbox {
     public static TrayIcon trayIcon;
@@ -94,15 +96,13 @@ public class Toolbox {
         }
     }
 
-    public static String hardConstraintMatchToString(Set<ConstraintMatch> ConstraintMatchSet) {
+    public static String hardConstraintMatchToString(Set<ConstraintMatch<HardMediumSoftLongScore>> ConstraintMatchSet) {
         StringBuilder result = new StringBuilder();
-        Iterator<ConstraintMatch> constraintMatchSetIterator = ConstraintMatchSet.iterator();
-        while (constraintMatchSetIterator.hasNext()) {
-            ConstraintMatch constraintMatch = constraintMatchSetIterator.next();
-            if (((HardMediumSoftLongScore) constraintMatch.getScore()).getHardScore() < 0) {
+        for (ConstraintMatch<HardMediumSoftLongScore> constraintMatch : ConstraintMatchSet) {
+            if (constraintMatch.getScore().getHardScore() < 0) {
                 result.append(constraintMatch.getConstraintName())
                         .append("[")
-                        .append(((HardMediumSoftLongScore) constraintMatch.getScore()).getHardScore())
+                        .append(constraintMatch.getScore().getHardScore())
                         .append("]\n");
             }
         }
@@ -115,19 +115,18 @@ public class Toolbox {
 
     public static class PrettyPrintAlloc {
         public List<String[]> breakByRules = new ArrayList<>();
-        public Map<Allocation, Indictment> breakByTasks = new HashMap<>();
-        ScoreDirector<Schedule> scoreDirector;
+        public Map<Allocation, Indictment<HardMediumSoftLongScore>> breakByTasks = new HashMap<>();
 
-        public PrettyPrintAlloc(ScoreDirector<Schedule> scoreDirector) {
-            this.scoreDirector = scoreDirector;
-            this.scoreDirector.calculateScore();
-            for (ConstraintMatchTotal constraintMatch : scoreDirector.getConstraintMatchTotals()) {
-                if (((HardMediumSoftLongScore) (constraintMatch.getScore())).getHardScore() < 0)
+        public PrettyPrintAlloc(Schedule schedule) {
+            ScoreManager<Schedule, HardMediumSoftLongScore> scoreManager = getScoringScoreManager();
+            ScoreExplanation<Schedule, HardMediumSoftLongScore> scoreExplanation = scoreManager.explainScore(schedule);
+            for (ConstraintMatchTotal<HardMediumSoftLongScore> constraintMatch : scoreExplanation.getConstraintMatchTotalMap().values()) {
+                if (constraintMatch.getScore().getHardScore() < 0)
                     breakByRules.add(new String[]{constraintMatch.toString()});
             }
-            for (Map.Entry<Object, Indictment> indictmentEntry : scoreDirector.getIndictmentMap().entrySet()) {
+            for (Map.Entry<Object, Indictment<HardMediumSoftLongScore>> indictmentEntry : scoreExplanation.getIndictmentMap().entrySet()) {
                 if (indictmentEntry.getValue().getJustification() instanceof Allocation &&
-                        ((HardMediumSoftLongScore) indictmentEntry.getValue().getScore()).getHardScore() < 0) {
+                        indictmentEntry.getValue().getScore().getHardScore() < 0) {
                     Allocation matchAllocation = (Allocation) indictmentEntry.getValue().getJustification();
                     breakByTasks.put(matchAllocation, indictmentEntry.getValue());
                 }
@@ -194,9 +193,9 @@ public class Toolbox {
         }
 
         public String indictmentStr(Allocation allocation) {
-            if (!scoreDirector.getIndictmentMap().containsKey(allocation)) return "";
+            if(!breakByTasks.containsKey(allocation))return "";
             String[] indictmentHeader = {"Contraint Match", "Score"};
-            return FlipTable.of(indictmentHeader, scoreDirector.getIndictmentMap().get(allocation).getConstraintMatchSet().stream()
+            return FlipTable.of(indictmentHeader, breakByTasks.get(allocation).getConstraintMatchSet().stream()
                     .map(x -> new String[]{
                             x.getConstraintName(), x.getScore().toShortString()
                     }).toArray(String[][]::new));

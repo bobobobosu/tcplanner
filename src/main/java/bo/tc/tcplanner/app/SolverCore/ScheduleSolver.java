@@ -2,11 +2,12 @@ package bo.tc.tcplanner.app.SolverCore;
 
 import bo.tc.tcplanner.PropertyConstants;
 import bo.tc.tcplanner.domain.planningstructures.Schedule;
+import org.optaplanner.core.api.score.ScoreManager;
+import org.optaplanner.core.api.score.buildin.hardmediumsoftlong.HardMediumSoftLongScore;
 import org.optaplanner.core.api.solver.Solver;
 import org.optaplanner.core.api.solver.SolverFactory;
 import org.optaplanner.core.config.solver.SolverConfig;
 import org.optaplanner.core.config.solver.termination.TerminationConfig;
-import org.optaplanner.core.impl.score.director.ScoreDirector;
 
 public class ScheduleSolver {
     // Config
@@ -63,7 +64,7 @@ public class ScheduleSolver {
 
         synchronized (scheduleLatest.scoreexplaination) {
             scheduleLatest.scoreexplaination.setLength(0);
-            scheduleLatest.scoreexplaination.append(currentSolver.explainBestScore());
+            scheduleLatest.scoreexplaination.append(getScoringScoreManager().explainScore(scheduleLatest.schedule));
             scheduleLatest.scoreexplaination.notifyAll();
         }
     }
@@ -87,7 +88,7 @@ public class ScheduleSolver {
     private void setSolverListener(Solver<Schedule> solver) {
         solver.addEventListener(bestSolutionChangedEvent -> {
             scheduleLatest.schedule = bestSolutionChangedEvent.getNewBestSolution();
-            scheduleLatest.solverScoreDelta.update(solver.getBestScore());
+            scheduleLatest.solverScoreDelta.update(getScoringScoreManager().updateScore(scheduleLatest.schedule));
             synchronized (scheduleLatest.solverScoreDelta) {
                 scheduleLatest.solverScoreDelta.notify();
             }
@@ -148,10 +149,8 @@ public class ScheduleSolver {
         scheduleLatest = new ScheduleLatest();
     }
 
-    public static ScoreDirector<Schedule> getScoringScoreDirector() {
-        ScoreDirector<Schedule> scoringScoreDirector;
+    public static ScoreManager<Schedule, HardMediumSoftLongScore> getScoringScoreManager() {
         SolverFactory<Schedule> solverFactory = SolverFactory.createFromXmlResource("solverPhase1.xml");
-        scoringScoreDirector = solverFactory.getScoreDirectorFactory().buildScoreDirector();
-        return scoringScoreDirector;
+        return ScoreManager.create(solverFactory);
     }
 }
