@@ -38,10 +38,10 @@ public class ScheduleSolver {
 
         //Solve Hard
         do {
-            if (continuetosolve) {
-                scheduleLatest.schedule.solverPhase = PropertyConstants.SolverPhase.CH;
-                setCurrentSolver(solver_CH).solve(scheduleLatest.schedule);
-            }
+//            if (continuetosolve) {
+//                scheduleLatest.schedule.solverPhase = PropertyConstants.SolverPhase.CH;
+//                setCurrentSolver(solver_CH).solve(scheduleLatest.schedule);
+//            }
             if (continuetosolve) {
                 scheduleLatest.schedule.solverPhase = PropertyConstants.SolverPhase.FAST;
                 setCurrentSolver(solver_FAST).solve(scheduleLatest.schedule);
