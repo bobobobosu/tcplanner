@@ -858,7 +858,7 @@ public class TCGuiController {
                                 deficit < 0 ||
                                         reserve > key.getSchedule().getValueEntryMap()
                                                 .get(x.getKey().getResourceName()).getCapacity()
-                                        ? projectResources.get(key.getTimelineEntry().getTimelineProperty().getBelongedProject()) : solverResource);
+                                        ? solverResource : projectResources.get(key.getTimelineEntry().getTimelineProperty().getBelongedProject()));
                     });
                 }
             });
