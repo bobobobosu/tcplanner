@@ -15,6 +15,7 @@ public class TimelineProperty extends AbstractPersistable {
     private List<Integer> dependencyIdList;
     private List<Integer> taskChainIdList;
     private String planningWindowType; // See PropertyConstants
+    private String belongedProject;
     @Nullable
     private Integer timelineid;
 
@@ -30,6 +31,7 @@ public class TimelineProperty extends AbstractPersistable {
         this.setDependencyIdList(new ArrayList<>(other.dependencyIdList));
         this.setPlanningWindowType(other.planningWindowType);
         this.setTaskChainIdList(new ArrayList<>(other.taskChainIdList));
+        this.setBelongedProject(other.belongedProject);
     }
 
     @Override
@@ -52,6 +54,7 @@ public class TimelineProperty extends AbstractPersistable {
             checkNotNull(timelineid);
             checkArgument(PropertyConstants.PlanningWindowTypes.isValid(planningWindowType));
             checkArgument(taskChainIdList.contains(timelineid));
+            checkNotNull(belongedProject);
             return true;
         } catch (IllegalArgumentException | NullPointerException ex) {
             throw new IllegalArgumentException(this.toString(), ex);
@@ -104,6 +107,15 @@ public class TimelineProperty extends AbstractPersistable {
         return this;
     }
 
+    public String getBelongedProject() {
+        return belongedProject;
+    }
+
+    public TimelineProperty setBelongedProject(String belongedProject) {
+        this.belongedProject = belongedProject;
+        return this;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -116,6 +128,7 @@ public class TimelineProperty extends AbstractPersistable {
         if (!dependencyIdList.equals(that.dependencyIdList)) return false;
         if (!taskChainIdList.equals(that.taskChainIdList)) return false;
         if (!planningWindowType.equals(that.planningWindowType)) return false;
+        if (!belongedProject.equals(that.belongedProject)) return false;
         return timelineid != null ? timelineid.equals(that.timelineid) : that.timelineid == null;
     }
 
@@ -126,6 +139,7 @@ public class TimelineProperty extends AbstractPersistable {
         result = 31 * result + dependencyIdList.hashCode();
         result = 31 * result + taskChainIdList.hashCode();
         result = 31 * result + planningWindowType.hashCode();
+        result = 31 * result + belongedProject.hashCode();
         result = 31 * result + (timelineid != null ? timelineid.hashCode() : 0);
         return result;
     }

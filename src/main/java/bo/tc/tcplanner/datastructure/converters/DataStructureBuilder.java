@@ -84,7 +84,8 @@ public class DataStructureBuilder {
                 .setTimelineid(null)
                 .setDependencyIdList(new ArrayList<>())
                 .setTaskChainIdList(new ArrayList<>())
-                .setPlanningWindowType(PropertyConstants.PlanningWindowTypes.types.Draft.name());
+                .setPlanningWindowType(PropertyConstants.PlanningWindowTypes.types.Draft.name())
+                .setBelongedProject("");
 
         // Set Planning Facts
         Allocation sourceAllocation = new Allocation()
@@ -185,7 +186,8 @@ public class DataStructureBuilder {
                                         .setTimelineid(null)
                                         .setDependencyIdList(new ArrayList<>())
                                         .setTaskChainIdList(new ArrayList<>())
-                                        .setPlanningWindowType(PropertyConstants.PlanningWindowTypes.types.Draft.name()));
+                                        .setPlanningWindowType(PropertyConstants.PlanningWindowTypes.types.Draft.name())
+                                        .setBelongedProject("ValueEntry"));
                         schedule.getTimelineEntryList().add(timelineEntry);
 //                        if (!minimal) {
                         IntStream.range(0, 300).forEach(x -> {

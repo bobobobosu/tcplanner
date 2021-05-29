@@ -88,10 +88,10 @@ public class TCGuiController {
     Map<Entry<Allocation>, ChangeListener<Interval>> calendarEntryIntervalListenerMap;
     Map<Allocation, BiMap<ResourceTotalKey, Entry<Allocation>>> allocationResourceEntryMap;
     Queue<String> consoleBuffer;
-    Calendar calendar_resolved;
-    Calendar calendar_unresolved;
-    Calendar resource_resolved;
-    Calendar resource_unresolved;
+    CalendarSource calendarSource_solver;
+    CalendarSource resourceSource_solver;
+    CalendarSource calendarSource_project;
+    CalendarSource resourceSource_project;
     XYChart.Series<Number, Number> scoreSeries;
     XYChart.Series<ZonedDateTime, Number> resourceReserveSeries;
     XYChart.Series<ZonedDateTime, Number> resourceDeficitSeries;
@@ -525,17 +525,9 @@ public class TCGuiController {
             editor_table.setContextMenu(menu);
 
             // Timeline Calendar
-            calendar_resolved = new Calendar("Resolved");
-            calendar_resolved.setShortName("S");
-//            calendar_resolved.setReadOnly(true);
-            calendar_resolved.setStyle(Calendar.Style.STYLE1);
-            calendar_unresolved = new Calendar("Unresolved");
-            calendar_unresolved.setShortName("U");
-//            calendar_unresolved.setReadOnly(true);
-            calendar_unresolved.setStyle(Calendar.Style.STYLE4);
-            CalendarSource calendarSource = new CalendarSource("Solver");
-            calendarSource.getCalendars().setAll(calendar_resolved, calendar_unresolved);
-            calendar_calendarview.getCalendarSources().setAll(calendarSource);
+            calendarSource_solver = new CalendarSource("Solver");
+            calendarSource_project = new CalendarSource("Project");
+            calendar_calendarview.getCalendarSources().setAll(calendarSource_solver, calendarSource_project);
             calendar_calendarview.setEntryDetailsPopOverContentCallback(param ->
             {
                 tcEntryPopOverContentPane popOverContentPane = new tcEntryPopOverContentPane(
@@ -565,17 +557,9 @@ public class TCGuiController {
             });
 
             // Resource Calendar
-            resource_resolved = new Calendar("Resolved");
-            resource_resolved.setShortName("R");
-            resource_resolved.setReadOnly(true);
-            resource_resolved.setStyle(Calendar.Style.STYLE1);
-            resource_unresolved = new Calendar("Unresolved");
-            resource_unresolved.setShortName("R");
-            resource_unresolved.setReadOnly(true);
-            resource_unresolved.setStyle(Calendar.Style.STYLE4);
-            CalendarSource resourceSource = new CalendarSource("Resource");
-            resourceSource.getCalendars().addAll(resource_resolved, resource_unresolved);
-            resource_calendarview.getCalendarSources().setAll(resourceSource);
+            resourceSource_solver = new CalendarSource("Solver");
+            resourceSource_project = new CalendarSource("Project");
+            resource_calendarview.getCalendarSources().setAll(resourceSource_solver, resourceSource_project);
             resource_calendarview.setEntryContextMenuCallback(param -> {
                 EntryViewBase<?> entryView = param.getEntryView();
                 Entry<Allocation> entry = (Entry<Allocation>) entryView.getEntry();
@@ -754,10 +738,6 @@ public class TCGuiController {
         calendarEntryIntervalListenerMap = new HashMap<>();
         guiSchedule.getAllocationList().forEach(x -> allocationCalendarEntryMap.put(x, new Entry<>()));
         guiSchedule.getAllocationList().forEach(x -> allocationResourceEntryMap.put(x, HashBiMap.create()));
-        calendar_resolved.clear();
-        calendar_unresolved.clear();
-        resource_resolved.clear();
-        resource_unresolved.clear();
 
         // Initialize FilteredList
         forceDisplayingAllocations = new HashSet<>();
@@ -790,6 +770,34 @@ public class TCGuiController {
 
     private void refreshDisplay() {
         Platform.runLater(() -> {
+            // Project Calendars
+            Set<String> projects = allocationCalendarEntryMap.keySet().stream().map(x -> x.getTimelineEntry().getTimelineProperty().getBelongedProject()).collect(Collectors.toSet());
+            Map<String, Calendar> projectCalendars = new HashMap<>();
+            Map<String, Calendar> projectResources = new HashMap<>();
+            calendarSource_project.getCalendars().clear();
+            projects.forEach(x -> {
+                Calendar calendar = new Calendar(x);
+                calendar.setShortName(x);
+                calendar.setStyle(Calendar.Style.STYLE2);
+                projectCalendars.put(x, calendar);
+                Calendar resource = new Calendar(x);
+                resource.setShortName(x);
+                resource.setStyle(Calendar.Style.STYLE2);
+                projectResources.put(x, resource);
+            });
+            calendarSource_project.getCalendars().setAll(projectCalendars.values());
+            resourceSource_project.getCalendars().setAll(projectResources.values());
+
+            // "Unresolved" Calendars
+            Calendar solverCalendar = new Calendar("Unresolved");
+            solverCalendar.setShortName("Unresolved");
+            solverCalendar.setStyle(Calendar.Style.STYLE1);
+            calendarSource_solver.getCalendars().setAll(solverCalendar);
+            Calendar solverResource = new Calendar("Unresolved");
+            solverResource.setShortName("Unresolved");
+            solverResource.setStyle(Calendar.Style.STYLE1);
+            resourceSource_solver.getCalendars().setAll(solverResource);
+
             guiScoreDirector.calculateScore();
             solving_progress.setProgress(
                     1 - (double) Schedule.unsolvedEntityCount(guiSchedule) /
@@ -818,7 +826,7 @@ public class TCGuiController {
                     };
                     calendarEntryIntervalListenerMap.put(value, intervalChangeListener);
                     value.intervalProperty().addListener(intervalChangeListener);
-                    value.setCalendar(scoreString(key).equals("") ? calendar_resolved : calendar_unresolved);
+                    value.setCalendar(scoreString(key).equals("") ? projectCalendars.get(key.getTimelineEntry().getTimelineProperty().getBelongedProject()) : solverCalendar);
                 }
             });
 
@@ -850,7 +858,7 @@ public class TCGuiController {
                                 deficit < 0 ||
                                         reserve > key.getSchedule().getValueEntryMap()
                                                 .get(x.getKey().getResourceName()).getCapacity()
-                                        ? resource_unresolved : resource_resolved);
+                                        ? projectResources.get(key.getTimelineEntry().getTimelineProperty().getBelongedProject()) : solverResource);
                     });
                 }
             });

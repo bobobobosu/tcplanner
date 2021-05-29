@@ -131,7 +131,7 @@
         <dependency>
             <groupId>com.calendarfx</groupId>
             <artifactId>view</artifactId>
-            <version>11.8.3</version>
+            <version>11.10.1</version>
         </dependency>
         <dependency>
             <groupId>org.controlsfx</groupId>
