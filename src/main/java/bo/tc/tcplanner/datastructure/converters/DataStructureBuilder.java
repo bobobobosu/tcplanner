@@ -125,7 +125,7 @@ public class DataStructureBuilder {
                         .setPriority(defaultPriority))
                 .setTimelineProperty(new TimelineProperty(schedule.special.dummyTimelineProperty)
                         .setRownum(Integer.MAX_VALUE)
-                        .setPlanningWindowType(PropertyConstants.PlanningWindowTypes.types.Draft.name())));
+                        .setPlanningWindowType(PropertyConstants.PlanningWindowTypes.types.History.name())));
 
         // This allocation passes through all filters, this prevents selectors throw `n must be positive` exception
         Allocation dummyAllocation = new Allocation()
