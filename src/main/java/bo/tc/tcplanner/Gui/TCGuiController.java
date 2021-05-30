@@ -778,11 +778,11 @@ public class TCGuiController {
             projects.forEach(x -> {
                 Calendar calendar = new Calendar(x);
                 calendar.setShortName(x);
-                calendar.setStyle(Calendar.Style.STYLE2);
+                calendar.setStyle(Calendar.Style.STYLE1);
                 projectCalendars.put(x, calendar);
                 Calendar resource = new Calendar(x);
                 resource.setShortName(x);
-                resource.setStyle(Calendar.Style.STYLE2);
+                resource.setStyle(Calendar.Style.STYLE1);
                 projectResources.put(x, resource);
             });
             calendarSource_project.getCalendars().setAll(projectCalendars.values());
@@ -791,11 +791,11 @@ public class TCGuiController {
             // "Unresolved" Calendars
             Calendar solverCalendar = new Calendar("Unresolved");
             solverCalendar.setShortName("Unresolved");
-            solverCalendar.setStyle(Calendar.Style.STYLE1);
+            solverCalendar.setStyle(Calendar.Style.STYLE2);
             calendarSource_solver.getCalendars().setAll(solverCalendar);
             Calendar solverResource = new Calendar("Unresolved");
             solverResource.setShortName("Unresolved");
-            solverResource.setStyle(Calendar.Style.STYLE1);
+            solverResource.setStyle(Calendar.Style.STYLE2);
             resourceSource_solver.getCalendars().setAll(solverResource);
 
             guiScoreDirector.calculateScore();

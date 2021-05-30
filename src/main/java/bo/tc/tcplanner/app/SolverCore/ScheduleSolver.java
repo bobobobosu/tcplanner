@@ -36,7 +36,7 @@ public class ScheduleSolver {
         continuetosolve = true;
         scheduleLatest.solverScoreDelta.update(null);
 
-        //Solve Hard
+        // Solve Hard
         do {
 //            if (continuetosolve) {
 //                scheduleLatest.schedule.solverPhase = PropertyConstants.SolverPhase.CH;
@@ -52,7 +52,7 @@ public class ScheduleSolver {
             }
         } while (continuetosolve && scheduleLatest.schedule.getScore().getHardScore() < 0);
 
-        //Solve Soft
+        // Solve Soft
         if (continuetosolve) {
             scheduleLatest.schedule.solverPhase = PropertyConstants.SolverPhase.CH_REDUCE;
             setCurrentSolver(solver_CH).solve(scheduleLatest.schedule);
@@ -61,6 +61,9 @@ public class ScheduleSolver {
             scheduleLatest.schedule.solverPhase = PropertyConstants.SolverPhase.REDUCE;
             setCurrentSolver(solver_REDUCE).solve(scheduleLatest.schedule);
         }
+
+        // Set solver phase for manual editing (we need full progress range, for example)
+        scheduleLatest.schedule.solverPhase = PropertyConstants.SolverPhase.ACCURATE;
 
         synchronized (scheduleLatest.scoreexplaination) {
             scheduleLatest.scoreexplaination.setLength(0);
