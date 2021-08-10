@@ -40,7 +40,7 @@ public class PropertyConstants {
     // file server
     public static int fileserverport = 8000;
     public static String fileserveradd = "0.0.0.0";
-    public static ZoneId defaultTimeZone = TimeZone.getTimeZone("Asia/Taipei").toZoneId();
+    public static ZoneId defaultTimeZone = ZoneId.systemDefault();
 
     // solver
     public static int focused2dummyRatio = 25;
